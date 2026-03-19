@@ -21,7 +21,7 @@ IRREGULAR_SPECIES_NAMES = {
     'MR. MIME': 'MR_MIME',
     'MR._MIME': 'MR_MIME',
     'HO-OH': 'HO_OH',
-    'MIME JR.': 'MIME_JR',
+    'MIME JR.': 'MIMEJR',
     'MIME_JR.': 'MIMEJR',
     'PORYGON-Z': 'PORYGON_Z',
     'DEOXYS_(_A)': 'DEOXYS_ATTACK',

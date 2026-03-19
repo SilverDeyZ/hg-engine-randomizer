@@ -443,7 +443,7 @@
 #define SPECIES_BRONZOR        436
 #define SPECIES_BRONZONG       437
 #define SPECIES_BONSLY         438
-#define SPECIES_MIME_JR        439
+#define SPECIES_MIMEJR         439
 #define SPECIES_HAPPINY        440
 #define SPECIES_CHATOT         441
 #define SPECIES_SPIRITOMB      442
