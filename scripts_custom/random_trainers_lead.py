@@ -31,8 +31,10 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "mode",
-        choices=("Yes", "No", "yes", "no"),
-        help="Use 'Yes' to activate the 0x80 flag, or 'No' to remove it.",
+        nargs="?",
+        choices=("Yes", "No"),
+        default="Yes",
+        help="Use 'Yes' to activate the 0x80 flag, or 'No' to remove it. Defaults to 'Yes'.",
     )
     parser.add_argument(
         "--file",
@@ -120,7 +122,7 @@ def transform_text(text: str, activate: bool) -> tuple[str, int]:
 
 def main() -> int:
     args = parse_args()
-    activate = args.mode.lower() == "yes"
+    activate = args.mode == "Yes"
     original = args.file.read_text(encoding="utf-8")
     updated, modified_blocks = transform_text(original, activate)
 
