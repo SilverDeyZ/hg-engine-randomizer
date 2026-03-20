@@ -3,7 +3,7 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 1,
@@ -97,7 +97,7 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 1,
@@ -203,7 +203,7 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 1,
@@ -354,7 +354,7 @@
       },
       {
         "Level": 19,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 22,
@@ -457,7 +457,7 @@
       },
       {
         "Level": 20,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 22,
@@ -565,7 +565,7 @@
       },
       {
         "Level": 20,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 22,
@@ -2289,7 +2289,7 @@
       },
       {
         "Level": 50,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 54,
@@ -3316,7 +3316,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_SOFT_BOILED"
+        "Move": "MOVE_SOFTBOILED"
       },
       {
         "Level": 30,
@@ -4700,7 +4700,7 @@
       },
       {
         "Level": 10,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 13,
@@ -4801,7 +4801,7 @@
       },
       {
         "Level": 10,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 13,
@@ -5594,7 +5594,7 @@
       },
       {
         "Level": 24,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 26,
@@ -5682,7 +5682,7 @@
       },
       {
         "Level": 45,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 50,
@@ -5843,7 +5843,7 @@
       },
       {
         "Level": 35,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 40,
@@ -6330,7 +6330,7 @@
       },
       {
         "Level": 53,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 57,
@@ -6451,7 +6451,7 @@
       },
       {
         "Level": 53,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 57,
@@ -7724,7 +7724,7 @@
       },
       {
         "Level": 7,
-        "Move": "MOVE_SONIC_BOOM"
+        "Move": "MOVE_SONICBOOM"
       },
       {
         "Level": 10,
@@ -7820,7 +7820,7 @@
       },
       {
         "Level": 7,
-        "Move": "MOVE_SONIC_BOOM"
+        "Move": "MOVE_SONICBOOM"
       },
       {
         "Level": 10,
@@ -8103,7 +8103,7 @@
       },
       {
         "Level": 52,
-        "Move": "MOVE_HIGH_JUMP_KICK"
+        "Move": "MOVE_HI_JUMP_KICK"
       },
       {
         "Level": 56,
@@ -8214,7 +8214,7 @@
       },
       {
         "Level": 58,
-        "Move": "MOVE_HIGH_JUMP_KICK"
+        "Move": "MOVE_HI_JUMP_KICK"
       },
       {
         "Level": 62,
@@ -9241,7 +9241,7 @@
       },
       {
         "Level": 25,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 28,
@@ -9763,7 +9763,7 @@
       },
       {
         "Level": 16,
-        "Move": "MOVE_SONIC_BOOM"
+        "Move": "MOVE_SONICBOOM"
       },
       {
         "Level": 19,
@@ -9853,7 +9853,7 @@
       },
       {
         "Level": 16,
-        "Move": "MOVE_SONIC_BOOM"
+        "Move": "MOVE_SONICBOOM"
       },
       {
         "Level": 19,
@@ -9974,7 +9974,7 @@
       },
       {
         "Level": 28,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 31,
@@ -10026,7 +10026,7 @@
       },
       {
         "Level": 66,
-        "Move": "MOVE_SOFT_BOILED"
+        "Move": "MOVE_SOFTBOILED"
       }
     ],
     "MachineMoves": [
@@ -10048,7 +10048,7 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 1,
@@ -10084,7 +10084,7 @@
       },
       {
         "Level": 70,
-        "Move": "MOVE_SOFT_BOILED"
+        "Move": "MOVE_SOFTBOILED"
       }
     ],
     "MachineMoves": [
@@ -10416,7 +10416,7 @@
       },
       {
         "Level": 60,
-        "Move": "MOVE_HIGH_JUMP_KICK"
+        "Move": "MOVE_HI_JUMP_KICK"
       },
       {
         "Level": 64,
@@ -10531,7 +10531,7 @@
       },
       {
         "Level": 60,
-        "Move": "MOVE_HIGH_JUMP_KICK"
+        "Move": "MOVE_HI_JUMP_KICK"
       },
       {
         "Level": 64,
@@ -11168,7 +11168,7 @@
       },
       {
         "Level": 60,
-        "Move": "MOVE_SOFT_BOILED"
+        "Move": "MOVE_SOFTBOILED"
       },
       {
         "Level": 64,
@@ -11268,7 +11268,7 @@
       },
       {
         "Level": 50,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 54,
@@ -11477,7 +11477,7 @@
       },
       {
         "Level": 31,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 34,
@@ -11570,7 +11570,7 @@
       },
       {
         "Level": 31,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 32,
@@ -12405,7 +12405,7 @@
       },
       {
         "Level": 32,
-        "Move": "MOVE_THUNDER_PUNCH"
+        "Move": "MOVE_THUNDERPUNCH"
       },
       {
         "Level": 35,
@@ -12543,7 +12543,7 @@
       },
       {
         "Level": 55,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 59,
@@ -13609,7 +13609,7 @@
       },
       {
         "Level": 28,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 33,
@@ -13698,7 +13698,7 @@
       },
       {
         "Level": 25,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 28,
@@ -13789,7 +13789,7 @@
       },
       {
         "Level": 28,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 33,
@@ -13872,7 +13872,7 @@
       },
       {
         "Level": 25,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 28,
@@ -13963,7 +13963,7 @@
       },
       {
         "Level": 21,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 25,
@@ -14169,7 +14169,7 @@
       },
       {
         "Level": 19,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 23,
@@ -14242,7 +14242,7 @@
       },
       {
         "Level": 19,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 23,
@@ -14315,7 +14315,7 @@
       },
       {
         "Level": 19,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 23,
@@ -14404,7 +14404,7 @@
       },
       {
         "Level": 25,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 28,
@@ -14432,7 +14432,7 @@
       },
       {
         "Level": 48,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 52,
@@ -14498,7 +14498,7 @@
       },
       {
         "Level": 25,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 28,
@@ -14530,7 +14530,7 @@
       },
       {
         "Level": 49,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 53,
@@ -14572,7 +14572,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 1,
@@ -14600,7 +14600,7 @@
       },
       {
         "Level": 25,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 28,
@@ -14632,7 +14632,7 @@
       },
       {
         "Level": 49,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 53,
@@ -14790,7 +14790,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_SOFT_BOILED"
+        "Move": "MOVE_SOFTBOILED"
       },
       {
         "Level": 1,
@@ -14838,7 +14838,7 @@
       },
       {
         "Level": 40,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 45,
@@ -14893,7 +14893,7 @@
       },
       {
         "Level": 25,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 28,
@@ -14985,7 +14985,7 @@
       },
       {
         "Level": 25,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 28,
@@ -15085,7 +15085,7 @@
       },
       {
         "Level": 25,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 28,
@@ -17195,7 +17195,7 @@
       },
       {
         "Level": 28,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 31,
@@ -17294,7 +17294,7 @@
       },
       {
         "Level": 28,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 31,
@@ -17876,7 +17876,7 @@
       },
       {
         "Level": 42,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 46,
@@ -18288,7 +18288,7 @@
       },
       {
         "Level": 26,
-        "Move": "MOVE_THUNDER_PUNCH"
+        "Move": "MOVE_THUNDERPUNCH"
       },
       {
         "Level": 29,
@@ -19103,7 +19103,7 @@
       },
       {
         "Level": 16,
-        "Move": "MOVE_SONIC_BOOM"
+        "Move": "MOVE_SONICBOOM"
       },
       {
         "Level": 19,
@@ -19127,7 +19127,7 @@
       },
       {
         "Level": 34,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 37,
@@ -19944,7 +19944,7 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 1,
@@ -20384,7 +20384,7 @@
       },
       {
         "Level": 28,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 31,
@@ -20597,7 +20597,7 @@
       },
       {
         "Level": 25,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 28,
@@ -20738,7 +20738,7 @@
       },
       {
         "Level": 43,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 45,
@@ -20849,7 +20849,7 @@
       },
       {
         "Level": 44,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 48,
@@ -21726,7 +21726,7 @@
       },
       {
         "Level": 23,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 26,
@@ -21840,7 +21840,7 @@
       },
       {
         "Level": 23,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 26,
@@ -22013,7 +22013,7 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 1,
@@ -22148,7 +22148,7 @@
       },
       {
         "Level": 13,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 16,
@@ -23051,7 +23051,7 @@
       },
       {
         "Level": 31,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 32,
@@ -23138,7 +23138,7 @@
       },
       {
         "Level": 19,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 22,
@@ -23246,7 +23246,7 @@
       },
       {
         "Level": 19,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 22,
@@ -24159,7 +24159,7 @@
       },
       {
         "Level": 60,
-        "Move": "MOVE_HIGH_JUMP_KICK"
+        "Move": "MOVE_HI_JUMP_KICK"
       },
       {
         "Level": 64,
@@ -24330,7 +24330,7 @@
       },
       {
         "Level": 32,
-        "Move": "MOVE_THUNDER_PUNCH"
+        "Move": "MOVE_THUNDERPUNCH"
       },
       {
         "Level": 35,
@@ -24456,7 +24456,7 @@
       },
       {
         "Level": 55,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 59,
@@ -24685,7 +24685,7 @@
       },
       {
         "Level": 60,
-        "Move": "MOVE_SOFT_BOILED"
+        "Move": "MOVE_SOFTBOILED"
       },
       {
         "Level": 64,
@@ -24713,7 +24713,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 1,
@@ -24780,7 +24780,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 1,
@@ -24858,7 +24858,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 1,
@@ -25253,7 +25253,7 @@
       },
       {
         "Level": 22,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 26,
@@ -25322,7 +25322,7 @@
       },
       {
         "Level": 22,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 26,
@@ -25383,7 +25383,7 @@
       },
       {
         "Level": 14,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 18,
@@ -26033,7 +26033,7 @@
       },
       {
         "Level": 58,
-        "Move": "MOVE_HIGH_JUMP_KICK"
+        "Move": "MOVE_HI_JUMP_KICK"
       },
       {
         "Level": 62,
@@ -26661,7 +26661,7 @@
       },
       {
         "Level": 42,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 45,
@@ -26766,7 +26766,7 @@
       },
       {
         "Level": 48,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 52,
@@ -27209,7 +27209,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 1,
@@ -28634,7 +28634,7 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 1,
@@ -29252,7 +29252,7 @@
       },
       {
         "Level": 52,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 56,
@@ -29581,7 +29581,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 1,
@@ -29998,7 +29998,7 @@
       },
       {
         "Level": 25,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 28,
@@ -30890,7 +30890,7 @@
       },
       {
         "Level": 60,
-        "Move": "MOVE_HIGH_JUMP_KICK"
+        "Move": "MOVE_HI_JUMP_KICK"
       }
     ],
     "MachineMoves": [],
@@ -30997,7 +30997,7 @@
       },
       {
         "Level": 62,
-        "Move": "MOVE_HIGH_JUMP_KICK"
+        "Move": "MOVE_HI_JUMP_KICK"
       }
     ],
     "MachineMoves": [
@@ -32486,7 +32486,7 @@
       },
       {
         "Level": 52,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 55,
@@ -32607,7 +32607,7 @@
       },
       {
         "Level": 58,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 62,
@@ -32709,7 +32709,7 @@
       },
       {
         "Level": 41,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 45,
@@ -33183,7 +33183,7 @@
       },
       {
         "Level": 16,
-        "Move": "MOVE_SONIC_BOOM"
+        "Move": "MOVE_SONICBOOM"
       },
       {
         "Level": 19,
@@ -33215,7 +33215,7 @@
       },
       {
         "Level": 36,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 39,
@@ -33290,7 +33290,7 @@
       },
       {
         "Level": 16,
-        "Move": "MOVE_SONIC_BOOM"
+        "Move": "MOVE_SONICBOOM"
       },
       {
         "Level": 19,
@@ -33322,7 +33322,7 @@
       },
       {
         "Level": 36,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 39,
@@ -34377,7 +34377,7 @@
       },
       {
         "Level": 16,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 18,
@@ -34483,7 +34483,7 @@
       },
       {
         "Level": 16,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 18,
@@ -34593,7 +34593,7 @@
       },
       {
         "Level": 19,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 22,
@@ -34609,7 +34609,7 @@
       },
       {
         "Level": 31,
-        "Move": "MOVE_SELF_DESTRUCT"
+        "Move": "MOVE_SELFDESTRUCT"
       },
       {
         "Level": 34,
@@ -34680,7 +34680,7 @@
       },
       {
         "Level": 19,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 22,
@@ -34696,7 +34696,7 @@
       },
       {
         "Level": 31,
-        "Move": "MOVE_SELF_DESTRUCT"
+        "Move": "MOVE_SELFDESTRUCT"
       },
       {
         "Level": 32,
@@ -34763,7 +34763,7 @@
       },
       {
         "Level": 17,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 21,
@@ -34861,7 +34861,7 @@
       },
       {
         "Level": 17,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 21,
@@ -35206,7 +35206,7 @@
       },
       {
         "Level": 34,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 37,
@@ -35420,7 +35420,7 @@
       },
       {
         "Level": 25,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 28,
@@ -36906,7 +36906,7 @@
       },
       {
         "Level": 16,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 19,
@@ -37093,7 +37093,7 @@
       },
       {
         "Level": 7,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 10,
@@ -37199,7 +37199,7 @@
       },
       {
         "Level": 7,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 10,
@@ -37305,7 +37305,7 @@
       },
       {
         "Level": 7,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 10,
@@ -37515,7 +37515,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 1,
@@ -37644,7 +37644,7 @@
       },
       {
         "Level": 22,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 26,
@@ -37711,7 +37711,7 @@
       },
       {
         "Level": 22,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 26,
@@ -37778,7 +37778,7 @@
       },
       {
         "Level": 22,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 26,
@@ -38148,7 +38148,7 @@
       },
       {
         "Level": 10,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 14,
@@ -38164,7 +38164,7 @@
       },
       {
         "Level": 26,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 30,
@@ -38403,7 +38403,7 @@
       },
       {
         "Level": 20,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 22,
@@ -38500,7 +38500,7 @@
       },
       {
         "Level": 20,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 22,
@@ -40824,7 +40824,7 @@
       },
       {
         "Level": 9,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 12,
@@ -40912,7 +40912,7 @@
       },
       {
         "Level": 9,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 12,
@@ -41374,7 +41374,7 @@
       },
       {
         "Level": 22,
-        "Move": "MOVE_SONIC_BOOM"
+        "Move": "MOVE_SONICBOOM"
       },
       {
         "Level": 25,
@@ -41481,7 +41481,7 @@
       },
       {
         "Level": 22,
-        "Move": "MOVE_SONIC_BOOM"
+        "Move": "MOVE_SONICBOOM"
       },
       {
         "Level": 25,
@@ -41819,7 +41819,7 @@
       },
       {
         "Level": 24,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 26,
@@ -41930,7 +41930,7 @@
       },
       {
         "Level": 24,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 26,
@@ -42505,7 +42505,7 @@
       },
       {
         "Level": 64,
-        "Move": "MOVE_HIGH_JUMP_KICK"
+        "Move": "MOVE_HI_JUMP_KICK"
       },
       {
         "Level": 68,
@@ -43832,7 +43832,7 @@
       },
       {
         "Level": 7,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 10,
@@ -43914,7 +43914,7 @@
       },
       {
         "Level": 7,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 10,
@@ -44008,7 +44008,7 @@
       },
       {
         "Level": 7,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 10,
@@ -44076,7 +44076,7 @@
       },
       {
         "Level": 67,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 72,
@@ -44375,11 +44375,11 @@
       },
       {
         "Level": 70,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 74,
-        "Move": "MOVE_HIGH_JUMP_KICK"
+        "Move": "MOVE_HI_JUMP_KICK"
       }
     ],
     "MachineMoves": [],
@@ -45750,7 +45750,7 @@
       },
       {
         "Level": 7,
-        "Move": "MOVE_SONIC_BOOM"
+        "Move": "MOVE_SONICBOOM"
       },
       {
         "Level": 10,
@@ -46142,7 +46142,7 @@
       },
       {
         "Level": 50,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 54,
@@ -46236,11 +46236,11 @@
       },
       {
         "Level": 32,
-        "Move": "MOVE_THUNDER_PUNCH"
+        "Move": "MOVE_THUNDERPUNCH"
       },
       {
         "Level": 35,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 39,
@@ -46374,7 +46374,7 @@
       },
       {
         "Level": 55,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 59,
@@ -46413,7 +46413,7 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 1,
@@ -46511,7 +46511,7 @@
       },
       {
         "Level": 16,
-        "Move": "MOVE_SONIC_BOOM"
+        "Move": "MOVE_SONICBOOM"
       },
       {
         "Level": 19,
@@ -46535,7 +46535,7 @@
       },
       {
         "Level": 34,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 38,
@@ -46935,7 +46935,7 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 1,
@@ -47311,7 +47311,7 @@
       },
       {
         "Level": 25,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 28,
@@ -47883,7 +47883,7 @@
       },
       {
         "Level": 10,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 14,
@@ -47948,7 +47948,7 @@
       },
       {
         "Level": 10,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 14,
@@ -48005,7 +48005,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 6,
@@ -48143,7 +48143,7 @@
       },
       {
         "Level": 10,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 14,
@@ -48512,7 +48512,7 @@
       },
       {
         "Level": 18,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 22,
@@ -50666,7 +50666,7 @@
       },
       {
         "Level": 50,
-        "Move": "MOVE_HIGH_JUMP_KICK"
+        "Move": "MOVE_HI_JUMP_KICK"
       },
       {
         "Level": 54,
@@ -50768,7 +50768,7 @@
       },
       {
         "Level": 54,
-        "Move": "MOVE_HIGH_JUMP_KICK"
+        "Move": "MOVE_HI_JUMP_KICK"
       },
       {
         "Level": 58,
@@ -50838,7 +50838,7 @@
       },
       {
         "Level": 22,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 25,
@@ -51177,7 +51177,7 @@
       },
       {
         "Level": 12,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 15,
@@ -51284,7 +51284,7 @@
       },
       {
         "Level": 12,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 15,
@@ -51381,11 +51381,11 @@
       },
       {
         "Level": 9,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 12,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 15,
@@ -51476,11 +51476,11 @@
       },
       {
         "Level": 9,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 12,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 15,
@@ -51644,7 +51644,7 @@
       },
       {
         "Level": 60,
-        "Move": "MOVE_SELF_DESTRUCT"
+        "Move": "MOVE_SELFDESTRUCT"
       }
     ],
     "MachineMoves": [],
@@ -51754,7 +51754,7 @@
       },
       {
         "Level": 62,
-        "Move": "MOVE_SELF_DESTRUCT"
+        "Move": "MOVE_SELFDESTRUCT"
       }
     ],
     "MachineMoves": [],
@@ -54387,7 +54387,7 @@
       },
       {
         "Level": 60,
-        "Move": "MOVE_SELF_DESTRUCT"
+        "Move": "MOVE_SELFDESTRUCT"
       }
     ],
     "MachineMoves": [
@@ -54486,7 +54486,7 @@
       },
       {
         "Level": 60,
-        "Move": "MOVE_SELF_DESTRUCT"
+        "Move": "MOVE_SELFDESTRUCT"
       },
       {
         "Level": 64,
@@ -56017,7 +56017,7 @@
       },
       {
         "Level": 24,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 28,
@@ -56169,7 +56169,7 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 1,
@@ -56458,7 +56458,7 @@
       },
       {
         "Level": 62,
-        "Move": "MOVE_HIGH_JUMP_KICK"
+        "Move": "MOVE_HI_JUMP_KICK"
       }
     ],
     "MachineMoves": [
@@ -56557,7 +56557,7 @@
       },
       {
         "Level": 65,
-        "Move": "MOVE_HIGH_JUMP_KICK"
+        "Move": "MOVE_HI_JUMP_KICK"
       },
       {
         "Level": 70,
@@ -56755,7 +56755,7 @@
       },
       {
         "Level": 52,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 56,
@@ -56862,7 +56862,7 @@
       },
       {
         "Level": 64,
-        "Move": "MOVE_DYNAMIC_PUNCH"
+        "Move": "MOVE_DYNAMICPUNCH"
       },
       {
         "Level": 68,
@@ -57847,7 +57847,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 7,
@@ -57933,7 +57933,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 1,
@@ -58776,11 +58776,11 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 1,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 1,
@@ -58857,7 +58857,7 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 1,
@@ -59015,7 +59015,7 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_ANCIENT_POWER"
+        "Move": "MOVE_ANCIENTPOWER"
       },
       {
         "Level": 1,
@@ -59023,7 +59023,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_DRAGON_BREATH"
+        "Move": "MOVE_DRAGONBREATH"
       },
       {
         "Level": 1,
@@ -59289,7 +59289,7 @@
       },
       {
         "Level": 26,
-        "Move": "MOVE_EXTREME_SPEED"
+        "Move": "MOVE_EXTREMESPEED"
       },
       {
         "Level": 29,

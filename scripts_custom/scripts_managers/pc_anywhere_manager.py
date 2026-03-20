@@ -4,7 +4,7 @@ from pathlib import Path
 import sys
 
 
-ROOT = Path(__file__).resolve().parents[1]
+ROOT = Path(__file__).resolve().parents[2]
 
 SCRIPT_COMMANDS_PATH = ROOT / "src" / "field" / "script_commands.c"
 COMMONSCRIPT_PATH = ROOT / "armips" / "scr_seq" / "scr_seq_00003_commonscript.s"

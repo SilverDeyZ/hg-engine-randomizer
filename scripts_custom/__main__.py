@@ -10,15 +10,24 @@ from pathlib import Path
 
 def resolve_script(script_arg: str) -> Path:
     base_dir = Path(__file__).resolve().parent
-    candidate = base_dir / script_arg
+    search_dirs = [
+        base_dir,
+        base_dir / "scripts_randomizer",
+        base_dir / "scripts_romhack",
+        base_dir / "scripts_non_reversible",
+        base_dir / "scripts_managers",
+    ]
 
-    if candidate.is_file():
-        return candidate
+    script_names = [script_arg]
+    candidate_path = Path(script_arg)
+    if candidate_path.suffix != ".py":
+        script_names.append(f"{script_arg}.py")
 
-    if candidate.suffix != ".py":
-        with_suffix = candidate.with_suffix(".py")
-        if with_suffix.is_file():
-            return with_suffix
+    for search_dir in search_dirs:
+        for script_name in script_names:
+            candidate = search_dir / script_name
+            if candidate.is_file():
+                return candidate
 
     raise FileNotFoundError(f"Unknown scripts_custom helper: {script_arg}")
 

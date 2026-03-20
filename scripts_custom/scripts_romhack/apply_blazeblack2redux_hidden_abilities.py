@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Apply item drops from megapokemondrops.csv to mondata.s."""
+"""Apply BlazeBlack2Redux hidden abilities to data/HiddenAbilityTable.c."""
 
 from __future__ import annotations
 
@@ -9,20 +9,25 @@ import csv
 import re
 from pathlib import Path
 
-DEFAULT_MONDATA = Path("armips/data/mondata.s")
+DEFAULT_TABLE = Path("data/HiddenAbilityTable.c")
 DEFAULT_SPECIES_HEADER = Path("include/constants/species.h")
-DEFAULT_DROPS_CSV = Path("scripts_custom/megapokemondrops.csv")
-DEFAULT_BACKUP = Path("bak/mondata.s.bak")
+DEFAULT_ABILITY_HEADER = Path("include/constants/ability.h")
+DEFAULT_CHANGES_CSV = Path("scripts_custom/Data/BlazeBlack2Redux_mondata_changes.csv")
+DEFAULT_BACKUP = Path("bak/HiddenAbilityTable.c.bak")
+
+ABILITY_ALIASES = {
+    "ABILITY_SYNCHRONISE": "ABILITY_SYNCHRONIZE",
+    "ABILITY_LIGHTNINGROD": "ABILITY_LIGHTNING_ROD",
+}
 
 DEFINE_RE = re.compile(r"^\s*#define\s+(?P<name>[A-Z0-9_]+)\s+(?P<expr>.+?)\s*(?://.*)?$")
-MONDATA_RE = re.compile(r'^\s*mondata\s+(?P<species>SPECIES_[A-Z0-9_]+)\s*,')
-ITEMS_RE = re.compile(
-    r"^(?P<indent>\s*)items\s+(?P<first>ITEM_[A-Z0-9_]+)\s*,\s*(?P<second>ITEM_[A-Z0-9_]+)(?P<suffix>\s*(?://.*)?)$"
+TABLE_ENTRY_RE = re.compile(
+    r"^(?P<indent>\s*)\[(?P<species>SPECIES_[A-Z0-9_]+)\s*\]\s*=\s*(?P<ability>ABILITY_[A-Z0-9_]+)(?P<suffix>\s*,\s*(?://.*)?)$"
 )
 
 
 class ExpressionEvaluator(ast.NodeVisitor):
-    """Evaluate simple integer expressions used in species defines."""
+    """Evaluate simple integer expressions used in headers."""
 
     def __init__(self, values: dict[str, int]) -> None:
         self.values = values
@@ -79,13 +84,16 @@ class ExpressionEvaluator(ast.NodeVisitor):
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Apply item drops from scripts_custom/megapokemondrops.csv to armips/data/mondata.s."
+        description=(
+            "Apply hidden abilities from BlazeBlack2Redux_mondata_changes.csv "
+            "to data/HiddenAbilityTable.c."
+        )
     )
     parser.add_argument(
-        "--mondata",
+        "--table",
         type=Path,
-        default=DEFAULT_MONDATA,
-        help=f"Mondata file to edit (default: {DEFAULT_MONDATA}).",
+        default=DEFAULT_TABLE,
+        help=f"Hidden ability table to edit (default: {DEFAULT_TABLE}).",
     )
     parser.add_argument(
         "--species-header",
@@ -94,10 +102,16 @@ def parse_args() -> argparse.Namespace:
         help=f"Species header to read (default: {DEFAULT_SPECIES_HEADER}).",
     )
     parser.add_argument(
+        "--ability-header",
+        type=Path,
+        default=DEFAULT_ABILITY_HEADER,
+        help=f"Ability header to read (default: {DEFAULT_ABILITY_HEADER}).",
+    )
+    parser.add_argument(
         "--csv",
         type=Path,
-        default=DEFAULT_DROPS_CSV,
-        help=f"CSV file to read (default: {DEFAULT_DROPS_CSV}).",
+        default=DEFAULT_CHANGES_CSV,
+        help=f"CSV file to read (default: {DEFAULT_CHANGES_CSV}).",
     )
     return parser.parse_args()
 
@@ -108,11 +122,11 @@ def evaluate_expression(expression: str, values: dict[str, int]) -> int:
     return evaluator.visit(tree)
 
 
-def load_species_ids(species_header: Path) -> dict[str, int]:
+def load_named_ids(header_path: Path, prefix: str) -> dict[str, int]:
     values: dict[str, int] = {}
-    species_ids: dict[str, int] = {}
+    named_ids: dict[str, int] = {}
 
-    for line in species_header.read_text(encoding="utf-8").splitlines():
+    for line in header_path.read_text(encoding="utf-8").splitlines():
         match = DEFINE_RE.match(line)
         if not match:
             continue
@@ -126,57 +140,76 @@ def load_species_ids(species_header: Path) -> dict[str, int]:
             continue
 
         values[name] = value
-        if name.startswith("SPECIES_"):
-            species_ids[name] = value
+        if name.startswith(prefix):
+            named_ids[name] = value
 
-    return species_ids
+    return named_ids
 
 
-def load_drop_map(csv_path: Path) -> dict[int, tuple[str, str]]:
-    drop_map: dict[int, tuple[str, str]] = {}
+def normalize_ability_name(name: str) -> str:
+    normalized = name.strip()
+    if not normalized or normalized == "-":
+        return "ABILITY_NONE"
+
+    normalized = normalized.upper()
+    normalized = normalized.replace(".", "")
+    normalized = normalized.replace("'", "")
+    normalized = re.sub(r"[^A-Z0-9]+", "_", normalized)
+    normalized = normalized.strip("_")
+    ability_name = f"ABILITY_{normalized}"
+    return ABILITY_ALIASES.get(ability_name, ability_name)
+
+
+def load_hidden_ability_changes(csv_path: Path, valid_abilities: set[str]) -> dict[int, str]:
+    changes: dict[int, str] = {}
 
     with csv_path.open(newline="", encoding="utf-8") as handle:
         reader = csv.DictReader(handle)
         for row in reader:
-            species_id = int(row["id"])
-            drop_map[species_id] = (row["drop1"].strip(), row["drop2"].strip())
+            raw_hidden = row["HiddenAbility3"].strip()
+            if not raw_hidden:
+                continue
 
-    return drop_map
+            hidden_ability = normalize_ability_name(raw_hidden)
+            if hidden_ability not in valid_abilities:
+                raise ValueError(f"Unknown hidden ability from CSV: {row['HiddenAbility3']}")
+
+            species_id = int(row["ID"])
+            changes[species_id] = hidden_ability
+
+    return changes
 
 
-def apply_drops(
+def apply_hidden_ability_changes(
     text: str,
     species_ids: dict[str, int],
-    drop_map: dict[int, tuple[str, str]],
+    changes: dict[int, str],
 ) -> tuple[str, int]:
     updated_lines: list[str] = []
     changed = 0
-    current_species_id: int | None = None
 
     for line in text.splitlines(keepends=True):
         newline = "\n" if line.endswith("\n") else ""
         body = line[:-1] if newline else line
+        match = TABLE_ENTRY_RE.match(body)
 
-        mondata_match = MONDATA_RE.match(body)
-        if mondata_match:
-            species_name = mondata_match.group("species")
-            current_species_id = species_ids.get(species_name)
+        if not match:
             updated_lines.append(line)
             continue
 
-        items_match = ITEMS_RE.match(body)
-        if items_match and current_species_id in drop_map:
-            drop1, drop2 = drop_map[current_species_id]
-            updated_body = (
-                f"{items_match.group('indent')}items {drop1}, {drop2}"
-                f"{items_match.group('suffix')}"
-            )
-            if updated_body != body:
-                changed += 1
-            updated_lines.append(updated_body + newline)
+        species_name = match.group("species")
+        species_id = species_ids.get(species_name)
+        if species_id is None or species_id not in changes:
+            updated_lines.append(line)
             continue
 
-        updated_lines.append(line)
+        updated_body = (
+            f"{match.group('indent')}[{species_name:<36}] = {changes[species_id]}"
+            f"{match.group('suffix')}"
+        )
+        if updated_body != body:
+            changed += 1
+        updated_lines.append(updated_body + newline)
 
     return "".join(updated_lines), changed
 
@@ -188,26 +221,27 @@ def write_backup(source_text: str, backup_path: Path) -> None:
 
 def main() -> int:
     print("========================================")
-    print(" Mega Pokemon Drops")
+    print(" BlazeBlack2Redux Hidden Abilities")
     print("========================================")
-    print("Applying drops from scripts_custom/megapokemondrops.csv.\n")
+    print("Applying HiddenAbility3 values from the CSV.\n")
 
     args = parse_args()
-    species_ids = load_species_ids(args.species_header)
-    drop_map = load_drop_map(args.csv)
+    species_ids = load_named_ids(args.species_header, "SPECIES_")
+    ability_ids = load_named_ids(args.ability_header, "ABILITY_")
+    changes = load_hidden_ability_changes(args.csv, set(ability_ids))
 
-    original = args.mondata.read_text(encoding="utf-8")
-    updated, changed = apply_drops(original, species_ids, drop_map)
+    original = args.table.read_text(encoding="utf-8")
+    updated, changed = apply_hidden_ability_changes(original, species_ids, changes)
 
     if updated != original:
         print(f"\nCreating backup: {DEFAULT_BACKUP}")
         write_backup(original, DEFAULT_BACKUP)
-        args.mondata.write_text(updated, encoding="utf-8")
+        args.table.write_text(updated, encoding="utf-8")
 
     print()
     print("Done.")
     print(f"  Updated entries : {changed}")
-    print(f"  Mondata file    : {args.mondata}")
+    print(f"  Hidden table    : {args.table}")
     return 0
 
 
