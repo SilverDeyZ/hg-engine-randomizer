@@ -1,0 +1,94 @@
+id,base,mega,drop1,drop2
+1,Bulbasaur,(pre-evo of Venusaur),ITEM_NONE,ITEM_VENUSAURITE
+2,Ivysaur,(pre-evo of Venusaur),ITEM_NONE,ITEM_VENUSAURITE
+3,Venusaur,Mega Venusaur,ITEM_NONE,ITEM_VENUSAURITE
+4,Charmander,(pre-evo of Charizard),ITEM_NONE,ITEM_CHARIZARDITE_Y
+5,Charmeleon,(pre-evo of Charizard),ITEM_NONE,ITEM_CHARIZARDITE_Y
+6,Charizard,Mega Charizard Y/X,ITEM_CHARIZARDITE_Y,ITEM_CHARIZARDITE_X
+7,Squirtle,(pre-evo of Blastoise),ITEM_NONE,ITEM_BLASTOISINITE
+8,Wartortle,(pre-evo of Blastoise),ITEM_NONE,ITEM_BLASTOISINITE
+9,Blastoise,Mega Blastoise,ITEM_NONE,ITEM_BLASTOISINITE
+13,Weedle,(pre-evo of Beedrill),ITEM_NONE,ITEM_BEEDRILLITE
+14,Kakuna,(pre-evo of Beedrill),ITEM_NONE,ITEM_BEEDRILLITE
+15,Beedrill,Mega Beedrill,ITEM_POISON_BARB,ITEM_BEEDRILLITE
+16,Pidgey,(pre-evo of Pidgeot),ITEM_NONE,ITEM_PIDGEOTITE
+17,Pidgeotto,(pre-evo of Pidgeot),ITEM_NONE,ITEM_PIDGEOTITE
+18,Pidgeot,Mega Pidgeot,ITEM_NONE,ITEM_PIDGEOTITE
+63,Abra,(pre-evo of Alakazam),ITEM_TWISTED_SPOON,ITEM_ALAKAZITE
+64,Kadabra,(pre-evo of Alakazam),ITEM_TWISTED_SPOON,ITEM_ALAKAZITE
+65,Alakazam,Mega Alakazam,ITEM_TWISTED_SPOON,ITEM_ALAKAZITE
+79,Slowpoke,(pre-evo of Slowbro),ITEM_KINGS_ROCK,ITEM_SLOWBRONITE
+80,Slowbro,Mega Slowbro,ITEM_KINGS_ROCK,ITEM_SLOWBRONITE
+92,Gastly,(pre-evo of Gengar),ITEM_NONE,ITEM_GENGARITE
+93,Haunter,(pre-evo of Gengar),ITEM_SPELL_TAG,ITEM_GENGARITE
+94,Gengar,Mega Gengar,ITEM_SPELL_TAG,ITEM_GENGARITE
+115,Kangaskhan,Mega Kangaskhan,ITEM_NONE,ITEM_KANGASKHANITE
+127,Pinsir,Mega Pinsir,ITEM_NONE,ITEM_PINSIRITE
+129,Magikarp,(pre-evo of Gyarados),ITEM_NONE,ITEM_GYARADOSITE
+130,Gyarados,Mega Gyarados,ITEM_NONE,ITEM_GYARADOSITE
+142,Aerodactyl,Mega Aerodactyl,ITEM_NONE,ITEM_AERODACTYLITE
+150,Mewtwo,Mega Mewtwo Y/X,ITEM_MEWTWONITE_Y,ITEM_MEWTWONITE_X
+179,Mareep,(pre-evo of Ampharos),ITEM_NONE,ITEM_AMPHAROSITE
+180,Flaaffy,(pre-evo of Ampharos),ITEM_NONE,ITEM_AMPHAROSITE
+181,Ampharos,Mega Ampharos,ITEM_NONE,ITEM_AMPHAROSITE
+208,Steelix,Mega Steelix,ITEM_METAL_COAT,ITEM_STEELIXITE
+212,Scizor,Mega Scizor,ITEM_NONE,ITEM_SCIZORITE
+214,Heracross,Mega Heracross,ITEM_NONE,ITEM_HERACRONITE
+228,Houndour,(pre-evo of Houndoom),ITEM_NONE,ITEM_HOUNDOOMINITE
+229,Houndoom,Mega Houndoom,ITEM_NONE,ITEM_HOUNDOOMINITE
+246,Larvitar,(pre-evo of Tyranitar),ITEM_NONE,ITEM_TYRANITARITE
+247,Pupitar,(pre-evo of Tyranitar),ITEM_NONE,ITEM_TYRANITARITE
+248,Tyranitar,Mega Tyranitar,ITEM_NONE,ITEM_TYRANITARITE
+252,Treecko,(pre-evo of Sceptile),ITEM_NONE,ITEM_SCEPTILITE
+253,Grovyle,(pre-evo of Sceptile),ITEM_NONE,ITEM_SCEPTILITE
+254,Sceptile,Mega Sceptile,ITEM_NONE,ITEM_SCEPTILITE
+255,Torchic,(pre-evo of Blaziken),ITEM_NONE,ITEM_BLAZIKENITE
+256,Combusken,(pre-evo of Blaziken),ITEM_NONE,ITEM_BLAZIKENITE
+257,Blaziken,Mega Blaziken,ITEM_NONE,ITEM_BLAZIKENITE
+258,Mudkip,(pre-evo of Swampert),ITEM_NONE,ITEM_SWAMPERTITE
+259,Marshtomp,(pre-evo of Swampert),ITEM_NONE,ITEM_SWAMPERTITE
+260,Swampert,Mega Swampert,ITEM_NONE,ITEM_SWAMPERTITE
+280,Ralts,(pre-evo of Gardevoir),ITEM_NONE,ITEM_GARDEVOIRITE
+281,Kirlia,(pre-evo of Gardevoir),ITEM_NONE,ITEM_GARDEVOIRITE
+282,Gardevoir,Mega Gardevoir,ITEM_NONE,ITEM_GARDEVOIRITE
+302,Sableye,Mega Sableye,ITEM_WIDE_LENS,ITEM_SABLEYITE
+303,Mawile,Mega Mawile,ITEM_IRON_BALL,ITEM_MAWILITE
+304,Aron,(pre-evo of Aggron),ITEM_HARD_STONE,ITEM_AGGRONITE
+305,Lairon,(pre-evo of Aggron),ITEM_HARD_STONE,ITEM_AGGRONITE
+306,Aggron,Mega Aggron,ITEM_HARD_STONE,ITEM_AGGRONITE
+307,Meditite,(pre-evo of Medicham),ITEM_NONE,ITEM_MEDICHAMITE
+308,Medicham,Mega Medicham,ITEM_NONE,ITEM_MEDICHAMITE
+309,Electrike,(pre-evo of Manectric),ITEM_NONE,ITEM_MANECTITE
+310,Manectric,Mega Manectric,ITEM_NONE,ITEM_MANECTITE
+318,Carvanha,(pre-evo of Sharpedo),ITEM_DEEP_SEA_TOOTH,ITEM_SHARPEDONITE
+319,Sharpedo,Mega Sharpedo,ITEM_DEEP_SEA_TOOTH,ITEM_SHARPEDONITE
+322,Numel,(pre-evo of Camerupt),ITEM_RAWST_BERRY,ITEM_CAMERUPTITE
+323,Camerupt,Mega Camerupt,ITEM_RAWST_BERRY,ITEM_CAMERUPTITE
+333,Swablu,(pre-evo of Altaria),ITEM_NONE,ITEM_ALTARIANITE
+334,Altaria,Mega Altaria,ITEM_NONE,ITEM_ALTARIANITE
+353,Shuppet,(pre-evo of Banette),ITEM_SPELL_TAG,ITEM_BANETTITE
+354,Banette,Mega Banette,ITEM_SPELL_TAG,ITEM_BANETTITE
+359,Absol,Mega Absol,ITEM_LIFE_ORB,ITEM_ABSOLITE
+361,Snorunt,(pre-evo of Glalie),ITEM_SNOWBALL,ITEM_GLALITITE
+362,Glalie,Mega Glalie,ITEM_NEVER_MELT_ICE,ITEM_GLALITITE
+371,Bagon,(pre-evo of Salamence),ITEM_DRAGON_FANG,ITEM_SALAMENCITE
+372,Shelgon,(pre-evo of Salamence),ITEM_DRAGON_FANG,ITEM_SALAMENCITE
+373,Salamence,Mega Salamence,ITEM_DRAGON_FANG,ITEM_SALAMENCITE
+374,Beldum,(pre-evo of Metagross),ITEM_METAL_COAT,ITEM_METAGROSSITE
+375,Metang,(pre-evo of Metagross),ITEM_METAL_COAT,ITEM_METAGROSSITE
+376,Metagross,Mega Metagross,ITEM_METAL_COAT,ITEM_METAGROSSITE
+380,Latias,Mega Latias,ITEM_LATIASITE,ITEM_LATIASITE
+381,Latios,Mega Latios,ITEM_LATIOSITE,ITEM_LATIOSITE
+382,Kyogre,Primal Kyogre,ITEM_BLUE_ORB,ITEM_BLUE_ORB
+383,Groudon,Primal Groudon,ITEM_RED_ORB,ITEM_RED_ORB
+384,Rayquaza,Mega Rayquaza,ITEM_NONE,ITEM_NONE
+427,Buneary,(pre-evo of Lopunny),ITEM_PECHA_BERRY,ITEM_LOPUNNITE
+428,Lopunny,Mega Lopunny,ITEM_PECHA_BERRY,ITEM_LOPUNNITE
+443,Gible,(pre-evo of Garchomp),ITEM_HABAN_BERRY,ITEM_GARCHOMPITE
+444,Gabite,(pre-evo of Garchomp),ITEM_HABAN_BERRY,ITEM_GARCHOMPITE
+445,Garchomp,Mega Garchomp,ITEM_HABAN_BERRY,ITEM_GARCHOMPITE
+447,Riolu,(pre-evo of Lucario),ITEM_NONE,ITEM_LUCARIONITE
+448,Lucario,Mega Lucario,ITEM_NONE,ITEM_LUCARIONITE
+475,Gallade,Mega Gallade,ITEM_NONE,ITEM_GALLADITE
+581,Audino,Mega Audino,ITEM_ORAN_BERRY,ITEM_AUDINITE
+769,Diancie,Mega Diancie,ITEM_NONE,ITEM_DIANCITE

@@ -236,8 +236,17 @@ def uninstall_script_commands() -> None:
         write_text(SCRIPT_COMMANDS_PATH, content)
         return
     start_index = content.index(start)
+    if end not in content[start_index:]:
+        raise RuntimeError("Could not find the end of the PC Anywhere block in script_commands.c")
     end_index = content.index(end, start_index) + len(end)
-    content = content[:start_index].rstrip() + "\n"
+    prefix = content[:start_index].rstrip()
+    suffix = content[end_index:].lstrip("\n")
+    if prefix and suffix:
+        content = prefix + "\n\n" + suffix
+    elif prefix:
+        content = prefix + "\n"
+    else:
+        content = suffix
     content = content.replace(MAP_EVENTS_INCLUDE, "", 1)
     write_text(SCRIPT_COMMANDS_PATH, content)
 
