@@ -14,8 +14,7 @@ def resolve_script(script_arg: str) -> Path:
         base_dir,
         base_dir / "scripts_randomizer",
         base_dir / "scripts_romhack",
-        base_dir / "scripts_non_reversible",
-        base_dir / "scipts_multipliers",
+        base_dir / "scripts_multipliers",
         base_dir / "scripts_mods",
     ]
 

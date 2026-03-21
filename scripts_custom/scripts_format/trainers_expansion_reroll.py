@@ -7,6 +7,8 @@ import re
 import sys
 from pathlib import Path
 
+DEFAULT_SHINY_DENOMINATOR = 512
+
 
 class RerollError(RuntimeError):
     pass
@@ -56,7 +58,7 @@ def reroll_trainer_file(input_path: Path, constants_path: Path) -> tuple[str, in
         shiny_match = re.match(r"(\s*)shinylock\s+\S+(\s*(?://.*)?)$", raw_line.rstrip("\n"))
         if shiny_match:
             indent, comment = shiny_match.groups()
-            shiny_value = "1" if random.randrange(512) == 0 else "0"
+            shiny_value = "1" if random.randrange(DEFAULT_SHINY_DENOMINATOR) == 0 else "0"
             output_lines.append(f"{indent}shinylock {shiny_value}{comment}{newline}")
             shiny_replacements += 1
             continue
@@ -98,7 +100,9 @@ def print_intro() -> None:
     print(" Trainer Nature/Shiny Reroll")
     print("========================================")
     print("This script rerolls every trainer Pokemon nature")
-    print("and gives each trainer Pokemon a 1/512 chance to be shiny.\n")
+    print(
+        f"and gives each trainer Pokemon a 1/{DEFAULT_SHINY_DENOMINATOR} chance to be shiny.\n"
+    )
 
 
 def ask_mode() -> int:

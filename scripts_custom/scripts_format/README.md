@@ -57,8 +57,36 @@ What it does:
 
 This is useful when you want to refresh trainer Pokemon personality data after formatting and move generation.
 
+## Reordering scripts
+
+These two scripts are separate from the trainer expansion flow.
+
+They do not change battle data themselves. Instead, they reorder full blocks in the source files so the files are easier to read and configure later.
+
+## orderlist_encounters.py
+
+Reorders full `encounterdata` blocks in `armips/data/encounters.s`.
+
+Available modes:
+- vanilla order by `encounterdata` ID
+- accessibility order using `scripts_custom/Data/orderlist_encounters.csv`
+
+This is useful when you want encounter areas to appear in a progression-friendly order instead of their raw internal ID order.
+
+## orderlist_trainers.py
+
+Reorders full `trainerdata + party` blocks in `armips/data/trainers/trainers.s`.
+
+Available modes:
+- vanilla order by `trainerdata` ID
+- accessibility order using `scripts_custom/Data/orderlist_trainers.csv`
+
+This is useful when you want trainer teams to appear in a progression-friendly order for level curve tuning and later balancing work.
+
 ## Short summary
 
 - `trainers_expansion.py` converts trainers to the full configurable format and inserts `MOVE_NONE` placeholders where needed
 - `trainers_expansion_moveset_fill.py` restores vanilla-like generated movesets for Pokemon that still have 4 empty move slots
 - `trainers_expansion_reroll.py` rerolls nature and shiny chance for trainer Pokemon
+- `orderlist_encounters.py` reorders encounter blocks for easier progression-based editing
+- `orderlist_trainers.py` reorders trainer blocks for easier progression-based editing
