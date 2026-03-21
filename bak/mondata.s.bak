@@ -27047,7 +27047,7 @@ mondata SPECIES_BASCULEGION_FEMALE, "-----"
     types TYPE_WATER, TYPE_GHOST
     catchrate 135
     baseexp 208
-    evyields 2, 0, 0, 0, 0, 0
+    evyields 2,0,0,0,0,0
     items ITEM_NONE, ITEM_NONE
     genderratio 254
     eggcycles 1

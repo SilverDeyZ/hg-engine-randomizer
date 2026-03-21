@@ -45,31 +45,35 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def ask_yes_no(label: str, default: str) -> str:
+def ask_yes_no(label: str, default: str) -> str | None:
     while True:
         raw = input(f"  - {label:<14} [{default}] : ").strip()
         if not raw:
-            return default
+            return None
         upper = raw.upper()
         if upper in {"YES", "NO"}:
             return upper
         print(f"    Invalid value. Please enter YES or NO for {label}.")
 
 
-def ask_float(label: str, default: float) -> float:
+def ask_float(label: str, default: float) -> float | None:
     while True:
         raw = input(f"  - {label:<14} [{default:.1f}] : ").strip()
         if not raw:
-            return default
+            return None
         try:
             return float(raw)
         except ValueError:
             print(f"    Invalid value. Please enter a number for {label}.")
 
 
-def resolve_options(args: argparse.Namespace) -> tuple[str, float]:
+def resolve_options(args: argparse.Namespace) -> tuple[str | None, float | None]:
     ev_gain = args.ev_gain.upper() if args.ev_gain is not None else ask_yes_no("EV Gain", "YES")
+    if ev_gain is None:
+        return None, None
     scalar = args.scalar if args.scalar is not None else ask_float("EV Gain Scalar", DEFAULT_SCALAR)
+    if scalar is None:
+        return None, None
     scalar = max(-10.0, min(10.0, scalar))
     return ev_gain, scalar
 
@@ -141,12 +145,15 @@ def write_backup(source_text: str, backup_path: Path) -> None:
 
 def main() -> int:
     print("========================================")
-    print(" EV Gain Controller")
+    print(" EV Gain Multiplier")
     print("========================================")
     print("Choose whether EV gain is enabled and set the EV scalar.\n")
 
     args = parse_args()
     ev_gain, scalar = resolve_options(args)
+    if ev_gain is None or scalar is None:
+        print("No changes requested.")
+        return 0
 
     original = args.mondata.read_text(encoding="utf-8")
     updated, changed = transform_evyields(original, ev_gain, scalar)

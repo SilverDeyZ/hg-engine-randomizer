@@ -37,18 +37,18 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def ask_scalar(label: str, default: float) -> float:
+def ask_scalar(label: str, default: float) -> float | None:
     while True:
         raw = input(f"  - {label:<16} [{default:.1f}] : ").strip()
         if not raw:
-            return default
+            return None
         try:
             return float(raw)
         except ValueError:
             print(f"    Invalid value. Please enter a number for {label}.")
 
 
-def resolve_scalar(args: argparse.Namespace) -> float:
+def resolve_scalar(args: argparse.Namespace) -> float | None:
     return args.scalar if args.scalar is not None else ask_scalar("Levels Scalar", DEFAULT_SCALAR)
 
 
@@ -93,12 +93,15 @@ def write_backup(source_text: str, backup_path: Path) -> None:
 
 def main() -> int:
     print("========================================")
-    print(" Trainer Levels Manager")
+    print(" Trainer Levels Multiplier")
     print("========================================")
     print("Multiply trainer Pokemon levels by a scalar.\n")
 
     args = parse_args()
     scalar = resolve_scalar(args)
+    if scalar is None:
+        print("No changes requested.")
+        return 0
 
     original = args.trainers.read_text(encoding="utf-8")
     updated, changed = scale_levels(original, scalar)

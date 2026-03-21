@@ -7,6 +7,7 @@
 
 ## Table of Contents
 - [Features](#features)
+- [Randomizer Guide](#randomizer-guide)
 - [Build Instructions](#build-instructions-all-platforms-continued-from-further-setup-instructions)
 - [Credits](#credits)
 
@@ -30,6 +31,10 @@
 *A more comprehensive list of features + a roadmap can be found by visiting the [hg-engine wiki](https://github.com/BluRosie/hg-engine/wiki).  Please read this README and the Wiki thoroughly before asking questions.*
 
 If you are looking to contribute to hg-engine, please see the [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Randomizer Guide
+
+For the randomizer scripts, see [RANDOMIZER.md](scripts_custom/scripts_randomizer/RANDOMIZER.md).
 
 ## Build Instructions (All Platforms) (Continued from Further Setup Instructions)
 

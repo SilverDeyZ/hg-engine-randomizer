@@ -51,11 +51,11 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def ask_scalar(label: str, default: float) -> float:
+def ask_scalar(label: str, default: float) -> float | None:
     while True:
         raw = input(f"  - {label:<16} [{default:.1f}] : ").strip()
         if not raw:
-            return default
+            return None
         try:
             value = float(raw)
         except ValueError:
@@ -67,7 +67,7 @@ def ask_scalar(label: str, default: float) -> float:
         return value
 
 
-def resolve_scalar(args: argparse.Namespace) -> float:
+def resolve_scalar(args: argparse.Namespace) -> float | None:
     if args.scalar is None:
         return ask_scalar("Levels Scalar", DEFAULT_SCALAR)
     return max(MIN_SCALAR, min(MAX_SCALAR, args.scalar))
@@ -137,12 +137,15 @@ def write_backup(source_text: str, backup_path: Path) -> None:
 
 def main() -> int:
     print("========================================")
-    print(" Walklevels Manager")
+    print(" Walklevels Multiplier")
     print("========================================")
     print("Multiply walk and water encounter levels by a scalar.\n")
 
     args = parse_args()
     scalar = resolve_scalar(args)
+    if scalar is None:
+        print("No changes requested.")
+        return 0
 
     original = args.encounters.read_text(encoding="utf-8")
     updated, changed = scale_levels(original, scalar)

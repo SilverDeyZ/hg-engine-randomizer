@@ -318,7 +318,8 @@ def uninstall() -> None:
 def main() -> int:
     print("0 = install pc anywhere and modify files")
     print("1 = uninstall pc anywhere modifications and revert to vanilla")
-    choice = input("Choice: ").strip()
+    print("2 = do nothing and quit")
+    choice = input("Choice: ").strip() or "2"
 
     if choice == "0":
         install()
@@ -330,7 +331,11 @@ def main() -> int:
         print("pc anywhere uninstalled")
         return 0
 
-    print("Invalid choice. Use 0 or 1.")
+    if choice == "2":
+        print("No changes requested.")
+        return 0
+
+    print("Invalid choice. Use 0, 1, or 2.")
     return 1
 
 

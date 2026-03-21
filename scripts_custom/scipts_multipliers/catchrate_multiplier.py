@@ -39,11 +39,11 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def ask_scalar(label: str, default: float) -> float:
+def ask_scalar(label: str, default: float) -> float | None:
     while True:
         raw = input(f"  - {label:<16} [{default:.1f}] : ").strip()
         if not raw:
-            return default
+            return None
         try:
             value = float(raw)
         except ValueError:
@@ -55,7 +55,7 @@ def ask_scalar(label: str, default: float) -> float:
         return value
 
 
-def resolve_scalar(args: argparse.Namespace) -> float:
+def resolve_scalar(args: argparse.Namespace) -> float | None:
     if args.scalar is None:
         return ask_scalar("Catchrate Scalar", DEFAULT_SCALAR)
     return max(MIN_SCALAR, min(MAX_SCALAR, args.scalar))
@@ -63,6 +63,12 @@ def resolve_scalar(args: argparse.Namespace) -> float:
 
 def clamp_catchrate(value: int) -> int:
     return max(MIN_CATCHRATE, min(MAX_CATCHRATE, value))
+
+
+def scale_catchrate(value: int, scalar: float) -> int:
+    if value == 0:
+        return 0
+    return clamp_catchrate(int(round(value * scalar)))
 
 
 def scale_catchrates(text: str, scalar: float) -> tuple[str, int]:
@@ -79,7 +85,7 @@ def scale_catchrates(text: str, scalar: float) -> tuple[str, int]:
             continue
 
         original_value = int(match.group("value"))
-        scaled_value = clamp_catchrate(int(round(original_value * scalar)))
+        scaled_value = scale_catchrate(original_value, scalar)
         updated_body = (
             f"{match.group('indent')}catchrate {scaled_value}"
             f"{match.group('suffix')}"
@@ -98,12 +104,15 @@ def write_backup(source_text: str, backup_path: Path) -> None:
 
 def main() -> int:
     print("========================================")
-    print(" Catchrate Manager")
+    print(" Catchrate Multiplier")
     print("========================================")
     print("Multiply catchrate values by a scalar.\n")
 
     args = parse_args()
     scalar = resolve_scalar(args)
+    if scalar is None:
+        print("No changes requested.")
+        return 0
 
     original = args.mondata.read_text(encoding="utf-8")
     updated, changed = scale_catchrates(original, scalar)

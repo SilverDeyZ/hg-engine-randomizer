@@ -49,36 +49,40 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def ask_yes_no(label: str, default: str) -> str:
+def ask_yes_no(label: str, default: str) -> str | None:
     while True:
         raw = input(f"  - {label:<26} [{default}] : ").strip()
         if not raw:
-            return default
+            return None
         value = raw.upper()
         if value in {"YES", "NO"}:
             return value
         print(f"    Invalid value. Please enter YES or NO for {label}.")
 
 
-def ask_scalar(label: str, default: float) -> float:
+def ask_scalar(label: str, default: float) -> float | None:
     while True:
         raw = input(f"  - {label:<26} [{default:.1f}] : ").strip()
         if not raw:
-            return default
+            return None
         try:
             return float(raw)
         except ValueError:
             print(f"    Invalid value. Please enter a number for {label}.")
 
 
-def resolve_options(args: argparse.Namespace) -> tuple[str, float]:
+def resolve_options(args: argparse.Namespace) -> tuple[str | None, float | None]:
     deactivate = args.deactivate.upper() if args.deactivate is not None else ask_yes_no(
         "Deactivate wild encounters?", "NO"
     )
+    if deactivate is None:
+        return None, None
     if deactivate == "YES":
         return deactivate, DEFAULT_SCALAR
 
     scalar = args.scalar if args.scalar is not None else ask_scalar("Walkrate Scalar", DEFAULT_SCALAR)
+    if scalar is None:
+        return None, None
     scalar = round(scalar, 1)
     scalar = max(MIN_SCALAR, min(MAX_SCALAR, scalar))
     return deactivate, scalar
@@ -152,13 +156,16 @@ def write_backup(source_text: str, backup_path: Path) -> None:
 
 def main() -> int:
     print("========================================")
-    print(" Walkrate Manager")
+    print(" Walkrate Multiplier")
     print("========================================")
     print("Control walkrate values in encounters.s.")
     print("This only affects walkrate lines.\n")
 
     args = parse_args()
     deactivate, scalar = resolve_options(args)
+    if deactivate is None or scalar is None:
+        print("No changes requested.")
+        return 0
 
     original = args.encounters.read_text(encoding="utf-8")
     updated, changed = transform_walkrates(original, deactivate, scalar)

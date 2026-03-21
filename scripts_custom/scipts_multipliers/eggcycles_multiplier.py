@@ -37,11 +37,11 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def ask_scalar(label: str, default: float) -> float:
+def ask_scalar(label: str, default: float) -> float | None:
     while True:
         raw = input(f"  - {label:<16} [{default:.1f}] : ").strip()
         if not raw:
-            return default
+            return None
         try:
             value = float(raw)
         except ValueError:
@@ -53,7 +53,7 @@ def ask_scalar(label: str, default: float) -> float:
         return value
 
 
-def resolve_scalar(args: argparse.Namespace) -> float:
+def resolve_scalar(args: argparse.Namespace) -> float | None:
     if args.scalar is None:
         return ask_scalar("Eggcycles Scalar", DEFAULT_SCALAR)
     if args.scalar <= 0:
@@ -63,6 +63,12 @@ def resolve_scalar(args: argparse.Namespace) -> float:
 
 def clamp_eggcycles(value: int) -> int:
     return max(MIN_EGGCYCLES, min(MAX_EGGCYCLES, value))
+
+
+def scale_single_eggcycles(value: int, scalar: float) -> int:
+    if value == 0:
+        return 0
+    return clamp_eggcycles(int(round(value / scalar)))
 
 
 def scale_eggcycles(text: str, scalar: float) -> tuple[str, int]:
@@ -79,7 +85,7 @@ def scale_eggcycles(text: str, scalar: float) -> tuple[str, int]:
             continue
 
         original_value = int(match.group("value"))
-        scaled_value = clamp_eggcycles(int(round(original_value / scalar)))
+        scaled_value = scale_single_eggcycles(original_value, scalar)
         updated_body = (
             f"{match.group('indent')}eggcycles {scaled_value}"
             f"{match.group('suffix')}"
@@ -98,13 +104,16 @@ def write_backup(source_text: str, backup_path: Path) -> None:
 
 def main() -> int:
     print("========================================")
-    print(" Eggcycles Manager")
+    print(" Eggcycles Multiplier")
     print("========================================")
     print("Divide eggcycles values by a scalar.")
     print("One eggcycle equals 255 steps.\n")
 
     args = parse_args()
     scalar = resolve_scalar(args)
+    if scalar is None:
+        print("No changes requested.")
+        return 0
 
     original = args.mondata.read_text(encoding="utf-8")
     updated, changed = scale_eggcycles(original, scalar)
