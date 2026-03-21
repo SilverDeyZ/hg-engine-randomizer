@@ -1,3 +1,7 @@
+## Guides
+
+- [RANDOMIZER.md](scripts_custom/scripts_randomizer/RANDOMIZER.md).
+
 # hg-engine
 ## About
  `hg-engine` is an engine overhaul for ***English** Pokémon HeartGold* with a focus on bringing battles up to par with recent mainline Pokémon games and their mechanics.
@@ -31,10 +35,6 @@
 *A more comprehensive list of features + a roadmap can be found by visiting the [hg-engine wiki](https://github.com/BluRosie/hg-engine/wiki).  Please read this README and the Wiki thoroughly before asking questions.*
 
 If you are looking to contribute to hg-engine, please see the [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Randomizer Guide
-
-For the randomizer scripts, see [RANDOMIZER.md](scripts_custom/scripts_randomizer/RANDOMIZER.md).
 
 ## Build Instructions (All Platforms) (Continued from Further Setup Instructions)
 

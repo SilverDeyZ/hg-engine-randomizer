@@ -1,0 +1,143 @@
+encounterdata,area name,orderID
+0,New Bark Town,0
+1,Route 29,1
+68,Route 46,2
+2,Cherrygrove City,3
+3,Route 30,4
+4,Route 31,5
+69,Dark Cave (Route 31 entrance),6
+5,Violet City,7
+8,Route 32,8
+9,Ruins of Alph (Outside),9
+10,"Ruins of Alph (Inside, Main Room)",10
+11,"Ruins of Alph (Inside, Main Room - Not sure when used?)",11
+12,"Ruins of Alph (Inside, Main Room - Not sure when used?)",12
+13,"Ruins of Alph (Inside, Ladder Room - This has no encounter tile permissions though)",13
+6,Sprout Tower 2F,14
+7,Sprout Tower 3F,15
+14,Union Cave 1F,16
+15,Union Cave B1F,17
+16,Union Cave B2F,18
+17,Route 33,19
+18,Slowpoke Well 1F,20
+19,Slowpoke Well B2F,21
+20,Ilex Forest,22
+21,Route 34,23
+22,Route 35,24
+23,National Park,25
+24,National Park (Bug Catching Contest - Not Normally Used),26
+25,Route 36,27
+26,Route 37,28
+27,Ecruteak City,29
+28,Burned Tower 1F,30
+29,Burned Tower B1F,31
+70,Dark Cave (Route 45 entrance),32
+38,Route 38,33
+39,Route 39,34
+40,Olivine City,35
+41,Route 40,36
+42,Route 41,37
+51,Cianwood City,38
+82,Cliff Edge Gate,39
+71,Route 47,40
+83,Cliff Cave,41
+102,Route 48,42
+52,Route 42,43
+53,Mt. Mortar (Waterfall room),44
+54,Mt. Mortar (Central room),45
+55,Mt. Mortar (Room above waterfall),46
+56,Mt. Mortar B1F,47
+57,Route 43,48
+58,Lake of Rage,49
+43,Whirl Islands 1F,50
+44,Whirl Islands B1F,51
+46,Whirl Islands B2F,52
+48,Whirl Islands B3F (Ledge overlooking Lugia room),53
+59,Route 44,54
+60,Ice Path 1F,55
+61,Ice Path B1F,56
+62,Ice Path B2F,57
+63,Ice Path B3F,58
+65,Blackthorn City,59
+67,Route 45,60
+66,Dragons Den,61
+132,Tohjo Falls,62
+104,Route 27,63
+103,Route 26,64
+110,Victory Road 1F,65
+134,Victory Road 2F,66
+135,Victory Road 3F,67
+98,Vermilion City,68
+133,Digletts Cave,69
+116,Route 6,70
+136,"Route 2 (North, above Viridian Forest)",71
+113,Route 3,72
+114,Route 4,73
+106,Mt. Moon 1F,74
+107,Mt. Moon 2F,75
+72,Mt. Moon (Outside area),76
+73,Mt. Moon (Outside area when Clefairy are active),77
+97,Cerulean City,78
+115,Route 5,79
+130,Route 24,80
+131,Route 25,81
+119,Route 9,82
+120,Route 10,83
+108,Rock Tunnel 1F,84
+109,Rock Tunnel B1F,85
+118,Route 8,86
+92,Route 12,87
+122,Route 13,88
+123,Route 14,89
+124,Route 15,90
+121,Route 11,91
+100,Fuchsia City,92
+127,Route 18,93
+126,Route 17,94
+125,Route 16,95
+117,Route 7,96
+99,Celadon City,97
+96,Viridian City,98
+112,"Route 2 (South, below Viridian Forest)",99
+111,Route 1,100
+95,Pallet Town,101
+128,Route 21,102
+129,Route 22,103
+101,Cinnabar Island,104
+94,Route 20,105
+93,Route 19,106
+74,Seafoam Islands 1F,107
+75,Seafoam Islands B1F,108
+76,Seafoam Islands B2F,109
+77,Seafoam Islands B3F,110
+78,Seafoam Islands B4F,111
+137,Viridian Forest,112
+30,Bell Tower 2F,113
+31,Bell Tower 3F,114
+32,Bell Tower 4F,115
+34,Bell Tower 6F,116
+33,Bell Tower 5F,117
+35,Bell Tower 7F,118
+36,Bell Tower 8F,119
+37,Bell Tower 9F,120
+84,Bell Tower 10F,121
+139,Cerulean Cave 1F,122
+140,Cerulean Cave B1F,123
+141,Cerulean Cave B2F,124
+105,Route 28,125
+85,Mt. Silver (Outside area with Pokemon Center),126
+86,Mt. Silver 1F,127
+88,Mt. Silver (Expert Belt room),128
+79,Mt. Silver (Moltres room),129
+80,Mt. Silver 3F,130
+89,"Mt. Silver (Top, snowy area)",131
+87,Mt. Silver (Mountainside),132
+81,Mt. Silver 4F,133
+91,"Safari Zone (Placeholder, not used)",134
+45,???,135
+47,???,136
+49,???,137
+50,???,138
+64,???,139
+90,???,140
+138,???,141

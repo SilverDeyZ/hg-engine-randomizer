@@ -1,0 +1,739 @@
+TrainerData,OrderID,TrainerClass,Trainer,Team
+0,,PKMN Trainer,-,None Lv.0
+1,50,Rival,Silver,Gastly Lv.14 | Zubat Lv.16 | Bayleef Lv.18
+2,,Rival,Silver,Cyndaquil Lv.5
+3,,Rival,Silver,Totodile Lv.5
+4,6,Bug Catcher,Wade,Caterpie Lv.2 | Caterpie Lv.2 | Weedle Lv.3 | Caterpie Lv.2
+5,64,Beauty,Victoria,Sentret Lv.9 | Sentret Lv.13 | Sentret Lv.16
+6,55,Policeman,Keith,Growlithe Lv.17
+7,73,Juggler,Irwin,Voltorb Lv.2 | Voltorb Lv.6 | Voltorb Lv.10 | Voltorb Lv.14
+8,0,Youngster,Joey,Rattata Lv.4
+9,119,Swimmer F,Elaine,Staryu Lv.21
+10,46,Twins,Amy & Mimi,Spinarak Lv.10 | Ledyba Lv.10
+11,,Kimono Girl,Mickey,Skiploom Lv.20 | Vulpix Lv.20 | Skiploom Lv.18
+12,41,Team Rocket,Grunt,Rattata Lv.7 | Zubat Lv.9 | Zubat Lv.9
+13,40,Team Rocket F,Grunt,Zubat Lv.9 | Ekans Lv.11
+14,192,Burglar,Duncan,Koffing Lv.23 | Magmar Lv.25 | Koffing Lv.23
+15,384,Firebreather,Otis,Magmar Lv.43 | Weezing Lv.40 | Camerupt Lv.47
+16,118,Swimmer M,Simon,Tentacool Lv.20 | Tentacool Lv.20
+17,225,Black Belt,Kenji,Machoke Lv.28
+18,21,Fisherman,Justin,Magikarp Lv.5 | Magikarp Lv.5 | Magikarp Lv.15 | Magikarp Lv.5
+19,,Biker,Mickey,Koffing Lv.20 | Koffing Lv.20 | Koffing Lv.20
+20,16,Leader,Falkner,Pidgey Lv.9 | Pidgeotto Lv.13
+21,47,Leader,Bugsy,Scyther Lv.17 | Kakuna Lv.15 | Metapod Lv.15
+22,66,Lass,Carrie,Snubbull Lv.17
+23,30,Poke Maniac,Larry,Slowpoke Lv.11
+24,83,School Kid M,Alan,Tangela Lv.17
+25,28,Hiker,Russel,Geodude Lv.4 | Geodude Lv.6 | Geodude Lv.8
+26,19,Camper,Roland,Nidoran M Lv.9
+27,18,Picnicker,Liz,Nidoran F Lv.8
+28,246,Ace Trainer M,Jake,Parasect Lv.33 | Golduck Lv.35 | Vaporeon Lv.33
+29,15,Bird Keeper Gs,Rod,Pidgey Lv.7 | Pidgey Lv.7
+30,68,Leader,Whitney,Clefairy Lv.17 | Miltank Lv.19
+31,98,Leader,Morty,Gastly Lv.21 | Haunter Lv.21 | Gengar Lv.25 | Haunter Lv.23
+32,173,Leader,Pryce,Seel Lv.30 | Dewgong Lv.32 | Piloswine Lv.34
+33,138,Leader,Jasmine,Magnemite Lv.30 | Magnemite Lv.30 | Steelix Lv.35
+34,136,Leader,Chuck,Primeape Lv.29 | Poliwrath Lv.31
+35,217,Leader,Clair,Gyarados Lv.38 | Dragonair Lv.38 | Dragonair Lv.38 | Kingdra Lv.41
+36,244,Ace Trainer F,Joyce,Pikachu Lv.36 | Blastoise Lv.36
+37,114,Gentleman,Preston,Growlithe Lv.18 | Growlithe Lv.18
+38,336,Teacher,Colette,Clefairy Lv.45
+39,105,Sailor,Eugene,Poliwhirl Lv.17 | Raticate Lv.17 | Krabby Lv.19
+40,,Super Nerd,Mickey,Grimer Lv.20
+41,,Guitarist,Clyde,Electabuzz Lv.42
+42,25,Psychic M,Nathan,Girafarig Lv.26
+43,8,Sage,Chow,Bellsprout Lv.3 | Bellsprout Lv.3 | Bellsprout Lv.3
+44,106,Pokefan M,Derek,Pikachu Lv.18
+45,107,Pokefan,Ruth,Pikachu Lv.17
+46,97,Medium,Martha,Gastly Lv.18 | Haunter Lv.20 | Gastly Lv.20
+47,1,Youngster,Mikey,Pidgey Lv.2 | Rattata Lv.4
+48,371,Bug Catcher,Rob,Beedrill Lv.40 | Butterfree Lv.39
+49,17,Youngster,Albert,Rattata Lv.6 | Zubat Lv.8
+50,14,Bird Keeper Gs,Abe,Spearow Lv.9
+51,7,Sage,Nico,Bellsprout Lv.3 | Bellsprout Lv.3 | Bellsprout Lv.3
+52,9,Sage,Edmond,Bellsprout Lv.3 | Bellsprout Lv.3 | Bellsprout Lv.3
+53,10,Sage,Jin,Bellsprout Lv.6
+54,12,Sage,Troy,Bellsprout Lv.7 | Hoothoot Lv.7
+55,11,Sage,Neal,Bellsprout Lv.6
+56,23,Youngster,Gordon,Wooper Lv.10
+57,22,Fisherman,Ralph,Goldeen Lv.10
+58,402,Fisherman,Arnold,Shellder Lv.44
+59,357,Fisherman,Kyle,Goldeen Lv.39 | Qwilfish Lv.35 | Goldeen Lv.39
+60,20,Fisherman,Henry,Poliwag Lv.8 | Poliwag Lv.8
+61,38,Hiker,Anthony,Geodude Lv.11 | Machop Lv.11
+62,51,Youngster,Samuel,Rattata Lv.7 | Sandshrew Lv.10 | Spearow Lv.8 | Spearow Lv.8
+63,,Team Rocket,Mickey,Koffing Lv.14
+64,54,Youngster,Ian,Mankey Lv.10 | Diglett Lv.12
+65,53,Picnicker,Gina,Hoppip Lv.9 | Hoppip Lv.9 | Bulbasaur Lv.12
+66,56,Camper,Todd,Psyduck Lv.14
+67,44,Bug Catcher,Benny,Weedle Lv.7 | Kakuna Lv.9 | Beedrill Lv.12
+68,43,Bug Catcher,Al,Caterpie Lv.12 | Weedle Lv.12
+69,45,Bug Catcher,Josh,Paras Lv.13
+70,65,Beauty,Samantha,Meowth Lv.16 | Meowth Lv.16
+71,67,Lass,Cathy,Jigglypuff Lv.15 | Jigglypuff Lv.15 | Jigglypuff Lv.15
+72,77,Bird Keeper Gs,Bryan,Pidgey Lv.12 | Pidgeotto Lv.14
+73,111,Bird Keeper Gs,Theo,Pidgey Lv.17 | Pidgey Lv.15 | Pidgey Lv.19 | Pidgey Lv.15 | Pidgey Lv.15
+74,72,Camper,Ivan,Diglett Lv.10 | Zubat Lv.10 | Diglett Lv.14
+75,70,Camper,Elliot,Sandshrew Lv.13 | Marill Lv.15
+76,71,Picnicker,Brooke,Pikachu Lv.16
+77,69,Picnicker,Kim,Vulpix Lv.15
+78,76,Bug Catcher,Arnie,Venonat Lv.15
+79,,Bug Catcher,Ken,Ariados Lv.39 | Pinsir Lv.40
+80,75,Policeman,Dirk,Growlithe Lv.14 | Growlithe Lv.14
+81,84,Twins,Tori & Til,Marill Lv.16 | Mareep Lv.16
+82,101,Bird Keeper Gs,Toby,Doduo Lv.16 | Doduo Lv.17 | Doduo Lv.18
+83,325,Picnicker,Cindy,Nidoqueen Lv.48
+84,326,Camper,Barry,Nidoking Lv.48
+85,120,Swimmer F,Paula,Staryu Lv.19 | Shellder Lv.19
+86,121,Swimmer M,Randall,Shellder Lv.18 | Wartortle Lv.20 | Shellder Lv.18
+87,,Sage,Mickey,Haunter Lv.22
+88,,Sage,Mickey,Gastly Lv.16 | Gastly Lv.16 | Gastly Lv.16 | Gastly Lv.16 | Gastly Lv.16
+89,95,Medium,Grace,Haunter Lv.20 | Haunter Lv.20
+90,125,Swimmer F,Kaylee,Goldeen Lv.18 | Goldeen Lv.20 | Seaking Lv.20
+91,124,Swimmer F,Susie,Psyduck Lv.20 | Goldeen Lv.22
+92,131,Swimmer F,Denise,Seel Lv.22
+93,129,Swimmer F,Kara,Staryu Lv.20 | Starmie Lv.20
+94,127,Swimmer F,Wendy,Horsea Lv.21 | Horsea Lv.21
+95,122,Swimmer M,Charlie,Shellder Lv.21 | Tentacool Lv.19 | Tentacruel Lv.19
+96,123,Swimmer M,George,Tentacool Lv.16 | Tentacool Lv.17 | Tentacool Lv.16 | Staryu Lv.19 | Tentacool Lv.17 | Remoraid Lv.19
+97,128,Swimmer M,Berke,Qwilfish Lv.23
+98,130,Swimmer M,Ronald,Gyarados Lv.20 | Gyarados Lv.20
+99,126,Swimmer M,Matthew,Krabby Lv.23
+100,,Hiker,Anthony,Graveler Lv.33 | Machoke Lv.32
+101,39,Team Rocket,Grunt,Rattata Lv.9 | Rattata Lv.9
+102,245,Ace Trainer M,Gaven,Victreebel Lv.32 | Kingler Lv.32 | Flareon Lv.32
+103,237,Ace Trainer M,Blake,Magneton Lv.33 | Quagsire Lv.31 | Exeggcute Lv.31
+104,239,Ace Trainer M,Brian,Mareep Lv.35
+105,,Ace Trainer M,Mickey,Bulbasaur Lv.10 | Charmander Lv.10 | Squirtle Lv.10
+106,,Ace Trainer M,Mickey,Bulbasaur Lv.10 | Charmander Lv.10 | Squirtle Lv.10
+107,,Ace Trainer M,Mickey,Bulbasaur Lv.10 | Charmander Lv.10 | Squirtle Lv.10
+108,222,Ace Trainer M,Ryan,Pidgeot Lv.25 | Electabuzz Lv.27
+109,154,Ace Trainer M,Alton,Ivysaur Lv.24 | Charmeleon Lv.24 | Wartortle Lv.24
+110,212,Ace Trainer M,Paulo,Dratini Lv.35 | Seadra Lv.35 | Dratini Lv.35
+111,216,Ace Trainer M,Mike,Dragonair Lv.38
+112,214,Ace Trainer M,Cody,Horsea Lv.35 | Seadra Lv.37
+113,247,Ace Trainer F,Jamie,Rapidash Lv.36 | Flaaffy Lv.31
+114,241,Ace Trainer F,Reena,Growlithe Lv.36 | Nidorina Lv.33 | Staryu Lv.36
+115,236,Ace Trainer F,Megan,Bulbasaur Lv.32 | Ivysaur Lv.32 | Venusaur Lv.32
+116,153,Ace Trainer F,Lois,Mareep Lv.25 | Ninetales Lv.25
+117,213,Ace Trainer F,Lola,Dratini Lv.35 | Dragonair Lv.37
+118,59,Ace Trainer F,Kate,Shellder Lv.26 | Cloyster Lv.28
+119,215,Ace Trainer F,Fran,Seadra Lv.38
+120,57,Ace Trainer F,Irene,Goldeen Lv.22 | Seaking Lv.24
+121,223,Ace Trainer F,Kelly,Marill Lv.27 | Wartortle Lv.24 | Wartortle Lv.24
+122,150,Fisherman,Marvin,Magikarp Lv.10 | Gyarados Lv.20 | Magikarp Lv.15
+123,139,Fisherman,Tully,Qwilfish Lv.19
+124,210,Fisherman,Wilton,Goldeen Lv.26 | Goldeen Lv.26 | Seaking Lv.28
+125,206,Fisherman,Edgar,Remoraid Lv.28 | Remoraid Lv.28
+126,151,Fisherman,Andre,Gyarados Lv.27
+127,152,Fisherman,Raymond,Magikarp Lv.22 | Magikarp Lv.22 | Magikarp Lv.22 | Magikarp Lv.22
+128,,Fisherman,Jonah,Shellder Lv.33 | Octillery Lv.37 | Remoraid Lv.33 | Cloyster Lv.37
+129,140,Poke Maniac,Shane,Nidorina Lv.17 | Nidorino Lv.17
+130,148,Poke Maniac,Beckett,Slowbro Lv.20
+131,147,Poke Maniac,Brent,Nidorina Lv.20 | Nidorino Lv.24
+132,149,Poke Maniac,Ron,Nidoking Lv.20
+133,,Poke Maniac,Morgan,Rhyhorn Lv.39 | Rhydon Lv.39
+134,141,Hiker,Benjamin,Diglett Lv.15 | Geodude Lv.15 | Dugtrio Lv.17
+135,334,School Kid M,Johnny,Bellsprout Lv.39 | Weepinbell Lv.40 | Victreebel Lv.42
+136,328,Lass,Linda,Bulbasaur Lv.41 | Ivysaur Lv.43 | Venusaur Lv.45
+137,211,Bird Keeper Gs,Vance,Hoothoot Lv.28 | Pidgeotto Lv.28
+138,,Camper,Mickey,Nidorino Lv.15
+139,263,Picnicker,Debra,Seaking Lv.41
+140,370,Bug Catcher,Doug,Butterfree Lv.39 | Ariados Lv.37
+141,,Camper,Mickey,Nidorino Lv.15
+142,,Picnicker,Gina,Hoppip Lv.24 | Hoppip Lv.24 | Ivysaur Lv.32
+143,221,Hiker,Erik,Machop Lv.24 | Graveler Lv.27 | Machop Lv.27
+144,227,Hiker,Michael,Geodude Lv.25 | Graveler Lv.25 | Golem Lv.25
+145,224,Hiker,Parry,Onix Lv.30
+146,226,Hiker,Timothy,Diglett Lv.27 | Dugtrio Lv.27
+147,228,Camper,Ted,Mankey Lv.17
+148,295,Camper,Lloyd,Nidoking Lv.46
+149,287,Camper,Dean,Golduck Lv.44 | Sandslash Lv.42
+150,286,Camper,Sid,Dugtrio Lv.43 | Primeape Lv.40 | Poliwrath Lv.40
+151,229,Picnicker,Erin,Ponyta Lv.17 | Oddish Lv.14
+152,393,Picnicker,Hope,Flaaffy Lv.44
+153,395,Picnicker,Sharon,Furret Lv.41 | Rapidash Lv.43
+154,230,Hiker,Bailey,Geodude Lv.13 | Geodude Lv.13 | Geodude Lv.13 | Geodude Lv.13 | Geodude Lv.13
+155,,Hiker,Anthony,Graveler Lv.37 | Graveler Lv.38 | Machoke Lv.40
+156,132,Black Belt,Yoshi,Hitmonlee Lv.27
+157,134,Black Belt,Lao,Hitmonchan Lv.27
+158,,Black Belt,Kiyo,Hitmonlee Lv.34 | Hitmonchan Lv.34
+159,135,Black Belt,Lung,Mankey Lv.23 | Mankey Lv.23 | Primeape Lv.25
+160,232,Kimono Girl,Naoko,Espeon Lv.38
+161,234,Kimono Girl,Sayo,Jolteon Lv.38
+162,231,Kimono Girl,Zuki,Umbreon Lv.38
+163,235,Kimono Girl,Kuni,Vaporeon Lv.38
+164,233,Kimono Girl,Miki,Flareon Lv.38
+165,,Swimmer F,Mickey,Jynx Lv.28
+166,,Swimmer F,Mickey,Dewgong Lv.29
+167,,Swimmer F,Mickey,Seaking Lv.20
+168,,Swimmer M,Mickey,Seel Lv.25 | Dewgong Lv.26 | Seel Lv.25
+169,,Swimmer M,Mickey,Piloswine Lv.27 | Piloswine Lv.27
+170,,Swimmer M,Mickey,Shellder Lv.24 | Cloyster Lv.25 | Shellder Lv.24
+171,,Swimmer M,Mickey,Horsea Lv.15 | Horsea Lv.15 | Seadra Lv.20
+172,,Poke Maniac,Brent,Nidorina Lv.32 | Nidorino Lv.34 | Gyarados Lv.32
+173,,Poke Maniac,Brent,Gyarados Lv.41 | Lickitung Lv.38 | Nidorina Lv.38 | Nidorino Lv.43
+174,,Biker,Mickey,Koffing Lv.20 | Koffing Lv.20 | Koffing Lv.20
+175,,Medium,Bethany,Haunter Lv.25
+176,,Medium,Margaret,Haunter Lv.25
+177,,Medium,Ethel,Haunter Lv.25
+178,80,School Kid M,Jack,Oddish Lv.12 | Voltorb Lv.15
+179,330,School Kid M,Kipp,Voltorb Lv.36 | Magnemite Lv.36 | Voltorb Lv.40 | Magneton Lv.40
+180,,Beauty,Mickey,Sentret Lv.15
+181,79,Pokefan M,William,Raichu Lv.16
+182,78,Pokefan,Beverly,Snubbull Lv.16
+183,327,Lass,Alice,Gloom Lv.41 | Arbok Lv.45 | Vileplume Lv.41
+184,81,Lass,Krise,Oddish Lv.14 | Cubone Lv.17
+185,174,Team Rocket,Grunt,Raticate Lv.24 | Raticate Lv.24
+186,178,Team Rocket,Grunt,Grimer Lv.23 | Grimer Lv.23 | Muk Lv.25
+187,176,Team Rocket,Grunt,Rattata Lv.21 | Rattata Lv.21 | Rattata Lv.23 | Rattata Lv.23 | Rattata Lv.23
+188,177,Team Rocket,Grunt,Zubat Lv.26 | Zubat Lv.26
+189,179,Team Rocket,Grunt,Koffing Lv.23 | Grimer Lv.23 | Zubat Lv.23 | Rattata Lv.23
+190,181,Team Rocket,Grunt,Weezing Lv.26
+191,198,Team Rocket,Grunt,Raticate Lv.24 | Koffing Lv.26
+192,,Team Rocket,Grunt,Zubat Lv.22 | Golbat Lv.24 | Grimer Lv.22
+193,190,Team Rocket,Grunt,Muk Lv.23 | Koffing Lv.23 | Rattata Lv.25
+194,,Team Rocket,Mickey,Houndour Lv.33
+195,189,Team Rocket,Grunt,Rattata Lv.27
+196,195,Team Rocket,Grunt,Raticate Lv.24 | Golbat Lv.24
+197,196,Team Rocket,Grunt,Grimer Lv.26 | Weezing Lv.23
+198,175,Team Rocket F,Grunt,Arbok Lv.26
+199,194,Team Rocket F,Grunt,Gloom Lv.25 | Gloom Lv.25
+200,,Team Rocket F,Grunt,Ekans Lv.21 | Oddish Lv.23 | Ekans Lv.21 | Gloom Lv.24
+201,33,Poke Maniac,Andrew,Marowak Lv.24 | Marowak Lv.24
+202,34,Poke Maniac,Calvin,Kangaskhan Lv.26
+203,32,Hiker,Phillip,Geodude Lv.23 | Graveler Lv.25
+204,31,Hiker,Leonard,Geodude Lv.23 | Machop Lv.25
+205,35,Ace Trainer M,Nick,Charmander Lv.26 | Squirtle Lv.26 | Bulbasaur Lv.26
+206,36,Ace Trainer F,Gwen,Eevee Lv.26 | Flareon Lv.22 | Vaporeon Lv.22 | Jolteon Lv.22
+207,,Beauty,Mickey,Sentret Lv.15
+208,,Beauty,Mickey,Furret Lv.16
+209,,Beauty,Cassie,Vileplume Lv.36 | Butterfree Lv.42
+210,,Beauty,Caroline,Marill Lv.38 | Seel Lv.40 | Marill Lv.38
+211,110,Sailor,Huey,Poliwag Lv.18 | Poliwhirl Lv.20
+212,116,Sailor,Terrell,Poliwhirl Lv.20
+213,112,Sailor,Kent,Krabby Lv.18 | Krabby Lv.20
+214,117,Sailor,Roberto,Machop Lv.18 | Machop Lv.18 | Poliwhirl Lv.18
+215,115,Lass,Connie,Marill Lv.21
+216,155,Team Rocket,Grunt,Rattata Lv.16 | Rattata Lv.16 | Rattata Lv.16 | Rattata Lv.16
+217,113,Bird Keeper Gs,Denis,Spearow Lv.18 | Fearow Lv.20 | Spearow Lv.18
+218,158,Team Rocket,Grunt,Golbat Lv.18
+219,159,Team Rocket,Grunt,Rattata Lv.17 | Zubat Lv.17 | Rattata Lv.17
+220,157,Team Rocket,Grunt,Venonat Lv.18 | Venonat Lv.18
+221,,Team Rocket,Mickey,Zubat Lv.22
+222,163,Team Rocket,Grunt,Raticate Lv.19
+223,164,Team Rocket,Grunt,Drowzee Lv.17 | Zubat Lv.19
+224,165,Team Rocket,Grunt,Zubat Lv.16 | Grimer Lv.17 | Rattata Lv.18
+225,,Team Rocket,Mickey,Golbat Lv.36
+226,,Team Rocket,Mickey,Koffing Lv.30
+227,197,Team Rocket,Grunt,Koffing Lv.25 | Koffing Lv.25
+228,191,Team Rocket,Grunt,Koffing Lv.24 | Muk Lv.24
+229,,Team Rocket,Mickey,Rattata Lv.15 | Rattata Lv.15
+230,274,Psychic M,Franklin,Kadabra Lv.44 | Girafarig Lv.47
+231,,Gentleman,Edward,Persian Lv.41
+232,265,Guitarist,Vincent,Jolteon Lv.45 | Voltorb Lv.43 | Magnemite Lv.42
+233,63,Super Nerd,Eric,Grimer Lv.11 | Grimer Lv.11
+234,288,Hiker,Eoin,Graveler Lv.42 | Graveler Lv.42 | Graveler Lv.42
+235,260,Hiker,Noland,Bronzor Lv.39 | Golem Lv.42
+236,,Ace Trainer M,Shaye,Jolteon Lv.43 | Tangela Lv.43 | Tauros Lv.43
+237,,Ace Trainer F,Carol,Electrode Lv.43 | Starmie Lv.43 | Ninetales Lv.43
+238,257,Sailor,Stanly,Machop Lv.39 | Machoke Lv.41 | Psyduck Lv.34
+239,262,Sailor,Jeff,Makuhita Lv.40 | Raticate Lv.40
+240,,Sailor,Garrett,Kingler Lv.42
+241,,Sailor,Kenneth,Machop Lv.36 | Machop Lv.36 | Poliwrath Lv.36 | Machop Lv.36
+242,261,Juggler,Fritz,Mr Mime Lv.37 | Magmar Lv.37 | Machoke Lv.37
+243,,Swimmer F,Katie,Dewgong Lv.41
+244,255,Champion,Lance,Gyarados Lv.46 | Dragonite Lv.49 | Dragonite Lv.49 | Aerodactyl Lv.48 | Charizard Lv.48 | Dragonite Lv.50
+245,251,Elite Four,Will,Xatu Lv.40 | Jynx Lv.41 | Exeggutor Lv.41 | Slowbro Lv.41 | Xatu Lv.42
+246,254,Elite Four,Karen,Umbreon Lv.42 | Vileplume Lv.42 | Gengar Lv.45 | Murkrow Lv.44 | Houndoom Lv.47
+247,252,Elite Four,Koga,Ariados Lv.40 | Venomoth Lv.41 | Forretress Lv.43 | Muk Lv.42 | Crobat Lv.44
+248,369,Bug Catcher,Ed,Burmy Lv.43 | Butterfree Lv.43 | Beedrill Lv.43
+249,2,Bug Catcher,Don,Caterpie Lv.3 | Caterpie Lv.3
+250,,Black Belt,Kenji,Onix Lv.27 | Hitmonlee Lv.32 | Onix Lv.27 | Machoke Lv.32
+251,133,Black Belt,Nob,Machop Lv.25 | Machoke Lv.25
+252,437,Swimmer M,Harold,Remoraid Lv.42 | Seadra Lv.40
+253,379,Leader,Brock,Graveler Lv.51 | Rhyhorn Lv.51 | Omastar Lv.53 | Onix Lv.54 | Kabutops Lv.52
+254,305,Leader,Misty,Golduck Lv.49 | Quagsire Lv.49 | Lapras Lv.52 | Starmie Lv.54
+255,267,Leader,Lt. Surge,Raichu Lv.51 | Electrode Lv.47 | Magneton Lv.47 | Electrode Lv.47 | Electabuzz Lv.53
+256,310,Leader,Erika,Jumpluff Lv.51 | Tangela Lv.52 | Victreebel Lv.56 | Bellossom Lv.56
+257,329,Leader,Janine,Crobat Lv.47 | Weezing Lv.44 | Ariados Lv.47 | Ariados Lv.47 | Venomoth Lv.50
+258,275,Leader,Sabrina,Espeon Lv.53 | Mr Mime Lv.53 | Alakazam Lv.55
+259,434,Leader,Blaine,Magcargo Lv.54 | Magmar Lv.54 | Rapidash Lv.59
+260,444,PKMN Trainer,Red,Pikachu Lv.88 | Lapras Lv.80 | Snorlax Lv.82 | Venusaur Lv.84 | Charizard Lv.84 | Blastoise Lv.84
+261,443,Leader,Blue,Exeggutor Lv.55 | Arcanine Lv.58 | Rhydon Lv.58 | Gyarados Lv.52 | Machamp Lv.56 | Pidgeot Lv.60
+262,,Team Rocket,Mickey,Golbat Lv.25 | Golbat Lv.25 | Arbok Lv.30
+263,93,Rival,Silver,Gastly Lv.20 | Magnemite Lv.18 | Zubat Lv.20 | Bayleef Lv.22
+264,250,Rival,Silver,Sneasel Lv.36 | Golbat Lv.38 | Magneton Lv.37 | Haunter Lv.37 | Kadabra Lv.37 | Meganium Lv.40
+265,,Rival,Silver,Chikorita Lv.5
+266,48,Rival,Silver,Gastly Lv.14 | Zubat Lv.16 | Quilava Lv.18
+267,91,Rival,Silver,Gastly Lv.20 | Magnemite Lv.18 | Zubat Lv.20 | Quilava Lv.22
+268,248,Rival,Silver,Sneasel Lv.36 | Golbat Lv.38 | Magneton Lv.37 | Haunter Lv.37 | Kadabra Lv.37 | Typhlosion Lv.40
+269,49,Rival,Silver,Gastly Lv.14 | Zubat Lv.16 | Croconaw Lv.18
+270,92,Rival,Silver,Gastly Lv.20 | Magnemite Lv.18 | Zubat Lv.20 | Croconaw Lv.22
+271,187,Rival,Silver,Golbat Lv.30 | Magnemite Lv.28 | Haunter Lv.30 | Sneasel Lv.32 | Feraligatr Lv.32
+272,249,Rival,Silver,Sneasel Lv.36 | Golbat Lv.38 | Magneton Lv.37 | Haunter Lv.37 | Kadabra Lv.37 | Feraligatr Lv.40
+273,,Swimmer M,Mickey,Staryu Lv.13 | Starmie Lv.18 | Horsea Lv.16
+274,,Camper,Todd,Geodude Lv.17 | Geodude Lv.17 | Psyduck Lv.31
+275,,Camper,Todd,Geodude Lv.23 | Graveler Lv.33 | Golduck Lv.36 | Slugma Lv.32
+276,,Picnicker,Liz,Weepinbell Lv.35 | Nidorina Lv.38
+277,,Picnicker,Liz,Weepinbell Lv.39 | Nidorino Lv.38 | Nidoqueen Lv.40
+278,,Black Belt,Kenji,Onix Lv.30 | Machamp Lv.37 | Onix Lv.33 | Hitmonlee Lv.41
+279,,Youngster,Joey,Raticate Lv.34
+280,,Youngster,Joey,Raticate Lv.40
+281,90,Firebreather,Richard,Charmeleon Lv.18
+282,89,Firebreather,Ned,Koffing Lv.16 | Growlithe Lv.17 | Koffing Lv.16
+283,193,Burglar,Orson,Growlithe Lv.26 | Koffing Lv.24
+284,,Burglar,Corey,Koffing Lv.33 | Magmar Lv.36 | Koffing Lv.33 | Koffing Lv.38
+285,392,Rival,Silver,Sneasel Lv.46 | Golbat Lv.47 | Magneton Lv.46 | Gengar Lv.48 | Alakazam Lv.48 | Meganium Lv.50
+286,390,Rival,Silver,Sneasel Lv.46 | Golbat Lv.47 | Magneton Lv.46 | Gengar Lv.48 | Alakazam Lv.48 | Typhlosion Lv.50
+287,391,Rival,Silver,Sneasel Lv.46 | Golbat Lv.47 | Magneton Lv.46 | Gengar Lv.48 | Alakazam Lv.48 | Feraligatr Lv.50
+288,188,Rival,Silver,Golbat Lv.32 | Magnemite Lv.30 | Haunter Lv.32 | Sneasel Lv.34 | Meganium Lv.34
+289,186,Rival,Silver,Golbat Lv.32 | Magnemite Lv.30 | Haunter Lv.32 | Sneasel Lv.34 | Quilava Lv.34
+290,13,Elder,Li,Bellsprout Lv.7 | Bellsprout Lv.7 | Hoothoot Lv.10
+291,436,Swimmer F,Debbie,Clamperl Lv.46
+292,,Swimmer F,Mickey,Seaking Lv.20
+293,424,Swimmer F,Nicole,Marill Lv.39 | Marill Lv.39 | Lapras Lv.42
+294,423,Swimmer F,Lori,Starmie Lv.42 | Starmie Lv.42 | Starmie Lv.42
+295,,Swimmer F,Mickey,Seaking Lv.20
+296,401,Swimmer F,Nikki,Seel Lv.37 | Dewgong Lv.42
+297,302,Swimmer F,Diana,Golduck Lv.48
+298,304,Swimmer F,Briana,Seaking Lv.46 | Seaking Lv.46
+299,394,Bird Keeper Gs,Hank,Pidgey Lv.13 | Pidgeot Lv.44
+300,342,Bird Keeper Gs,Roy,Fearow Lv.38 | Fearow Lv.44
+301,324,Bird Keeper Gs,Boris,Doduo Lv.39 | Doduo Lv.37 | Dodrio Lv.41
+302,323,Bird Keeper Gs,Bob,Noctowl Lv.48
+303,,Bird Keeper Gs,Jose,Farfetchd Lv.44
+304,,Camper,Mickey,Graveler Lv.33 | Graveler Lv.36 | Golbat Lv.40 | Golduck Lv.42
+305,,Camper,Mickey,Graveler Lv.33 | Graveler Lv.36 | Golbat Lv.40 | Golduck Lv.42
+306,,Camper,Mickey,Graveler Lv.33 | Graveler Lv.36 | Golbat Lv.40 | Golduck Lv.42
+307,,Camper,Mickey,Graveler Lv.33 | Graveler Lv.36 | Golbat Lv.40 | Golduck Lv.42
+308,377,Camper,Jerry,Rhydon Lv.50
+309,276,Biker,Dwayne,Koffing Lv.38 | Koffing Lv.39 | Koffing Lv.40 | Koffing Lv.41
+310,277,Biker,Harris,Flareon Lv.45
+311,278,Biker,Zeke,Koffing Lv.43 | Koffing Lv.43
+312,322,Biker,Charles,Koffing Lv.41 | Charmeleon Lv.41 | Weezing Lv.42
+313,312,Biker,Reese,Weezing Lv.45
+314,313,Biker,Joel,Magmar Lv.43 | Magmar Lv.43
+315,319,Biker,Glenn,Koffing Lv.39 | Magmar Lv.41 | Weezing Lv.43
+316,365,Psychic M,Herman,Exeggcute Lv.39 | Exeggcute Lv.39 | Exeggutor Lv.39
+317,368,Psychic M,Fidel,Xatu Lv.43
+318,389,Firebreather,Burt,Weezing Lv.42 | Magcargo Lv.45
+319,29,Firebreather,Bill,Koffing Lv.6 | Koffing Lv.6
+320,359,Fisherman,Martin,Remoraid Lv.36 | Octillery Lv.42
+321,361,Fisherman,Stephen,Quagsire Lv.43 | Qwilfish Lv.38 | Tentacruel Lv.38
+322,363,Fisherman,Barney,Gyarados Lv.40 | Gyarados Lv.37 | Gyarados Lv.37
+323,,Fisherman,Tully,Qwilfish Lv.33
+324,,Fisherman,Tully,Goldeen Lv.30 | Goldeen Lv.30 | Qwilfish Lv.38
+325,,Fisherman,Wilton,Goldeen Lv.32 | Goldeen Lv.32 | Seaking Lv.36
+326,306,Twins,Jo & Zoe,Victreebel Lv.47 | Vileplume Lv.47
+327,398,School Kid M,Danny,Jynx Lv.43 | Electabuzz Lv.43 | Magmar Lv.43
+328,331,School Kid M,Tommy,Xatu Lv.41 | Alakazam Lv.43
+329,292,School Kid M,Dudley,Oddish Lv.45
+330,294,School Kid M,Joe,Tangela Lv.44 | Vaporeon Lv.42
+331,335,School Kid M,Billy,Parasect Lv.39 | Poliwhirl Lv.37 | Ditto Lv.35
+332,289,Picnicker,Heidi,Skiploom Lv.43 | Skiploom Lv.43
+333,285,Picnicker,Edna,Nidorina Lv.41 | Raichu Lv.45
+334,,Picnicker,Gina,Skiploom Lv.26 | Skiploom Lv.26 | Ivysaur Lv.44
+335,,Picnicker,Erin,Gloom Lv.32 | Rapidash Lv.41
+336,308,Picnicker,Tanya,Exeggutor Lv.49
+337,266,Gentleman,Gregory,Pikachu Lv.46 | Flaaffy Lv.43 | Electrike Lv.42
+338,,Gentleman,Mickey,Ponyta Lv.20
+339,,Black Belt,Wai,Machoke Lv.38 | Machoke Lv.40 | Meditite Lv.42
+340,,Beauty,Mickey,Sentret Lv.15
+341,,Beauty,Mickey,Sentret Lv.15
+342,,Beauty,Mickey,Sentret Lv.15
+343,,Beauty,Mickey,Sentret Lv.15
+344,,Beauty,Mickey,Sentret Lv.15
+345,,Beauty,Mickey,Sentret Lv.15
+346,309,Beauty,Julia,Paras Lv.44 | Carnivine Lv.44 | Parasect Lv.47
+347,,Beauty,Mickey,Sentret Lv.15
+348,283,Pokefan M,Robert,Quagsire Lv.43
+349,351,Pokefan M,Joshua,Pikachu Lv.32 | Pikachu Lv.32 | Pikachu Lv.32 | Pikachu Lv.32 | Pikachu Lv.32 | Pikachu Lv.32
+350,341,Pokefan M,Carter,Bulbasaur Lv.38 | Charmander Lv.38 | Squirtle Lv.38
+351,340,Pokefan M,Trevor,Psyduck Lv.42
+352,,Pokefan,Georgia,Sentret Lv.31 | Sentret Lv.31 | Sentret Lv.31 | Furret Lv.36 | Sentret Lv.31
+353,291,Team Rocket,Grunt,Golbat Lv.39
+354,296,Lass,Laura,Gloom Lv.38 | Pidgeotto Lv.41 | Bellossom Lv.41
+355,297,Lass,Shannon,Paras Lv.38 | Paras Lv.38 | Parasect Lv.42
+356,307,Lass,Michelle,Skiploom Lv.44 | Hoppip Lv.45 | Jumpluff Lv.46
+357,290,Hiker,Clarke,Onix Lv.43 | Dugtrio Lv.45
+358,356,Hiker,Kenny,Sandslash Lv.27 | Graveler Lv.29 | Golem Lv.33
+359,284,Hiker,Jim,Machamp Lv.45
+360,,Bug Catcher,Arnie,Venonat Lv.36
+361,299,Ace Trainer M,Kevin,Rhyhorn Lv.48 | Charmeleon Lv.46 | Wartortle Lv.46
+362,400,Ace Trainer F,Quinn,Ivysaur Lv.47 | Starmie Lv.47
+363,37,Ace Trainer F,Emma,Poliwhirl Lv.28
+364,279,Super Nerd,Sam,Grimer Lv.44 | Muk Lv.44
+365,281,Super Nerd,Tyrone,Magnemite Lv.40 | Magnemite Lv.40 | Magnemite Lv.40
+366,298,Super Nerd,Pat,Porygon Lv.47
+367,,Super Nerd,Shawn,Magnemite Lv.39 | Muk Lv.41 | Magnemite Lv.39
+368,271,Medium,Rebecca,Bronzor Lv.45 | Hypno Lv.45
+369,273,Medium,Darcy,Slowpoke Lv.44 | Slowbro Lv.46
+370,438,Swimmer M,Jerome,Seadra Lv.36 | Tentacool Lv.38 | Tentacruel Lv.40 | Goldeen Lv.38
+371,435,Swimmer M,Tucker,Shellder Lv.40 | Cloyster Lv.44
+372,,Swimmer M,Mickey,Staryu Lv.13 | Starmie Lv.18 | Horsea Lv.16
+373,413,Swimmer M,Frankie,Azumarill Lv.44
+374,407,Swimmer M,Tyson,Quagsire Lv.42 | Octillery Lv.42
+375,,Swimmer M,Mickey,Staryu Lv.13 | Starmie Lv.18 | Horsea Lv.16
+376,,Swimmer M,Mickey,Staryu Lv.13 | Starmie Lv.18 | Horsea Lv.16
+377,,Swimmer M,Parker,Horsea Lv.43 | Seadra Lv.43
+378,381,Youngster,Warren,Fearow Lv.38 | Raticate Lv.42
+379,382,Youngster,Jimmy,Raticate Lv.42 | Arbok Lv.42 | Parasect Lv.42
+380,367,Youngster,Owen,Growlithe Lv.44
+381,366,Youngster,Jason,Sandslash Lv.42 | Crobat Lv.42
+382,332,Teacher,Hillary,Sunkern Lv.41 | Aipom Lv.31
+383,24,Bird Keeper Gs,Peter,Pidgey Lv.6 | Pidgey Lv.6 | Spearow Lv.8
+384,27,Hiker,Daniel,Onix Lv.11
+385,,Twins,Dara & Dia,Mareep Lv.16 | Marill Lv.16
+386,87,Psychic M,Greg,Drowzee Lv.17
+387,46,Twins,Amy & Mimi,Ledyba Lv.10 | Spinarak Lv.10
+388,74,Firebreather,Walt,Magmar Lv.11 | Magmar Lv.16
+389,104,Psychic M,Nelson,Slowpoke Lv.17 | Slowpoke Lv.20
+390,26,Firebreather,Ray,Vulpix Lv.9
+391,62,Poke Maniac,Issac,Lickitung Lv.12
+392,60,Poke Maniac,Donald,Slowpoke Lv.11 | Slowpoke Lv.11
+393,61,Super Nerd,Teru,Magnemite Lv.7 | Voltorb Lv.11 | Magnemite Lv.7 | Magnemite Lv.9
+394,,Ace Trainer M,Mickey,Bulbasaur Lv.14 | Charmander Lv.14 | Squirtle Lv.14
+395,82,Psychic M,Mark,Abra Lv.14 | Abra Lv.14 | Kadabra Lv.16
+396,264,Juggler,Horton,Electrode Lv.43 | Electrode Lv.43 | Electrode Lv.43
+397,102,School Kid M,Chad,Mr Mime Lv.20
+398,103,Beauty,Valerie,Hoppip Lv.18 | Skiploom Lv.18
+399,256,Firebreather,Lyle,Koffing Lv.36 | Flareon Lv.39 | Koffing Lv.36
+400,100,Lass,Dana,Flaaffy Lv.19 | Psyduck Lv.19
+401,109,Gentleman,Alfred,Noctowl Lv.22
+402,146,Picnicker,Tiffany,Clefairy Lv.21
+403,145,Camper,Spencer,Sandshrew Lv.18 | Sandslash Lv.18 | Zubat Lv.20
+404,161,Team Rocket F,Grunt,Ekans Lv.18 | Gloom Lv.18
+405,205,Psychic M,Phil,Natu Lv.27 | Kadabra Lv.29
+406,209,Poke Maniac,Zach,Rhyhorn Lv.30
+407,208,Ace Trainer M,Allen,Charmeleon Lv.29 | Magnemite Lv.29
+408,207,Ace Trainer F,Cybil,Mareep Lv.29 | Bellossom Lv.29
+409,52,Pokefan M,Brandon,Snubbull Lv.13 | Mareep Lv.13
+410,99,Sailor,Harry,Wooper Lv.20
+411,243,Psychic M,Vernon,Espeon Lv.36
+412,240,Psychic M,Eli,Starmie Lv.30 | Exeggcute Lv.30 | Girafarig Lv.34
+413,242,Fisherman,Scott,Qwilfish Lv.30 | Qwilfish Lv.30 | Seaking Lv.34
+414,238,Bird Keeper Gs,Jose,Farfetchd Lv.40
+415,272,Psychic M,Jared,Mr Mime Lv.42 | Exeggcute Lv.42 | Exeggcute Lv.45
+416,,Twins,Jo & Zoe,Vileplume Lv.37 | Victreebel Lv.37
+417,58,Ace Trainer F,Jenn,Staryu Lv.24 | Starmie Lv.26
+418,253,Elite Four,Bruno,Hitmontop Lv.42 | Hitmonlee Lv.42 | Hitmonchan Lv.42 | Onix Lv.43 | Machamp Lv.46
+419,293,Lass,Ellen,Wigglytuff Lv.40 | Granbull Lv.44
+420,349,Bird Keeper Gs,Perry,Farfetchd Lv.42
+421,347,Bird Keeper Gs,Bret,Taillow Lv.41 | Fearow Lv.41
+422,,Psychic M,Rodney,Chingling Lv.37 | Hypno Lv.41
+423,,Pokefan M,Jeremy,Meowth Lv.36 | Meowth Lv.36 | Meowth Lv.36
+424,258,Pokefan M,Colin,Delibird Lv.40
+425,259,Twins,Meg & Peg,Teddiursa Lv.39 | Phanpy Lv.39
+426,259,Twins,Meg & Peg,Phanpy Lv.39 | Teddiursa Lv.39
+427,,Teacher,Shirley,Chatot Lv.43 | Jigglypuff Lv.43
+428,,School Kid M,Nate,Ledian Lv.40 | Exeggutor Lv.40
+429,,School Kid M,Ricky,Aipom Lv.40 | Ditto Lv.40
+430,,School Kid M,Jack,Gloom Lv.29 | Voltorb Lv.17
+431,,School Kid M,Jack,Vileplume Lv.38 | Electrode Lv.31
+432,,School Kid M,Alan,Tangela Lv.32 | Yanma Lv.30
+433,,School Kid M,Alan,Xatu Lv.32 | Tangrowth Lv.36 | Quagsire Lv.32 | Yanmega Lv.34
+434,,School Kid M,Chad,Mr Mime Lv.29 | Magnemite Lv.30
+435,,School Kid M,Chad,Mr Mime Lv.39 | Magneton Lv.38
+436,,Pokefan,Beverly,Snubbull Lv.31
+437,,Pokefan,Beverly,Granbull Lv.43
+438,,Pokefan M,Derek,Teddiursa Lv.24 | Pikachu Lv.30
+439,,Pokefan M,Derek,Pichu Lv.13 | Teddiursa Lv.15 | Pikachu Lv.37 | Teddiursa Lv.29
+440,,Sailor,Huey,Poliwhirl Lv.34 | Poliwhirl Lv.36
+441,,Sailor,Huey,Poliwhirl Lv.38 | Poliwrath Lv.41
+442,,Lass,Mickey,Marill Lv.21
+443,,Lass,Mickey,Marill Lv.21
+444,,Ace Trainer F,Reena,Growlithe Lv.38 | Nidorina Lv.36 | Staryu Lv.38
+445,,Ace Trainer F,Reena,Arcanine Lv.47 | Nidoqueen Lv.43 | Starmie Lv.47
+446,,Bird Keeper Gs,Jose,Farfetchd Lv.38 | Farfetchd Lv.45
+447,,Bird Keeper Gs,Vance,Hoothoot Lv.33 | Pidgeotto Lv.32
+448,,Bird Keeper Gs,Vance,Pidgeotto Lv.37 | Pidgeot Lv.38 | Noctowl Lv.42
+449,,Bug Catcher,Arnie,Venomoth Lv.43
+450,,Fisherman,Wilton,Goldeen Lv.32 | Seaking Lv.36 | Seaking Lv.40
+451,,Hiker,Parry,Onix Lv.38 | Graveler Lv.35
+452,,Hiker,Parry,Steelix Lv.41 | Graveler Lv.37
+453,,Picnicker,Erin,Bellossom Lv.46 | Sunflora Lv.39 | Rapidash Lv.48
+454,,Juggler,Irwin,Voltorb Lv.22 | Voltorb Lv.26 | Voltorb Lv.28 | Voltorb Lv.34
+455,,Juggler,Irwin,Voltorb Lv.34 | Voltorb Lv.36 | Voltorb Lv.38 | Electrode Lv.42
+456,,Ace Trainer M,Gaven,Victreebel Lv.34 | Kingler Lv.34 | Flareon Lv.34
+457,,Ace Trainer M,Gaven,Victreebel Lv.38 | Kingler Lv.39 | Flareon Lv.38
+458,,Ace Trainer F,Jamie,Rapidash Lv.38 | Ampharos Lv.37
+459,,Ace Trainer F,Jamie,Rapidash Lv.42 | Ampharos Lv.40
+460,,Bug Catcher,Wade,Butterfree Lv.28 | Butterfree Lv.40 | Beedrill Lv.37 | Butterfree Lv.28
+461,,Bug Catcher,Wade,Metapod Lv.18 | Butterfree Lv.29 | Kakuna Lv.22 | Metapod Lv.18
+462,,Fisherman,Ralph,Seaking Lv.40
+463,,Fisherman,Ralph,Qwilfish Lv.45 | Seaking Lv.42
+464,,Lass,Dana,Flaaffy Lv.32 | Psyduck Lv.31
+465,,Lass,Dana,Golduck Lv.36 | Ampharos Lv.38
+466,,Picnicker,Tiffany,Clefairy Lv.34
+467,,Picnicker,Tiffany,Clefable Lv.41
+468,160,Scientist Gs,Ross,Koffing Lv.22 | Koffing Lv.22
+469,162,Scientist Gs,Mitch,Ditto Lv.24
+470,156,Scientist Gs,Gregg,Magnemite Lv.20 | Magnemite Lv.20 | Magnemite Lv.20
+471,180,Scientist Gs,Garett,Magnemite Lv.27 | Magnemite Lv.27 | Magnemite Lv.27
+472,,Scientist Gs,Trenton,Porygon Lv.30
+473,,Super Nerd,Mickey,Koffing Lv.22 | Koffing Lv.22
+474,,Super Nerd,Mickey,Ditto Lv.24
+475,,Super Nerd,Mickey,Magnemite Lv.20 | Magnemite Lv.20 | Magnemite Lv.20
+476,,Super Nerd,Mickey,Magnemite Lv.27 | Magnemite Lv.27 | Magnemite Lv.27
+477,,Super Nerd,Mickey,Porygon Lv.30
+478,203,Executive,Ariana,Arbok Lv.32 | Vileplume Lv.32 | Murkrow Lv.32
+479,167,Executive,Ariana,Arbok Lv.25 | Gloom Lv.25 | Murkrow Lv.27
+480,168,Skier,Diana,Jynx Lv.29
+481,171,Skier,Jill,Dewgong Lv.29
+482,170,Boarder,Deandre,Seel Lv.25 | Dewgong Lv.26 | Seel Lv.25
+483,169,Boarder,Patton,Swinub Lv.27 | Swinub Lv.27
+484,172,Boarder,Gerardo,Shellder Lv.25 | Cloyster Lv.26 | Seel Lv.25
+485,204,Executive,Archer,Houndour Lv.35 | Koffing Lv.35 | Houndoom Lv.38
+486,42,Executive,Proton,Zubat Lv.8 | Koffing Lv.12
+487,185,Executive,Petrel,Koffing Lv.30 | Koffing Lv.30 | Koffing Lv.30 | Weezing Lv.32 | Koffing Lv.30 | Koffing Lv.30
+488,166,Executive,Petrel,Zubat Lv.22 | Raticate Lv.24 | Koffing Lv.22
+489,,Rival,Silver,Sneasel Lv.55 | Crobat Lv.58 | Magneton Lv.55 | Gengar Lv.56 | Alakazam Lv.56 | Meganium Lv.60
+490,,Rival,Silver,Sneasel Lv.55 | Crobat Lv.58 | Magneton Lv.55 | Gengar Lv.56 | Alakazam Lv.56 | Typhlosion Lv.60
+491,,Rival,Silver,Sneasel Lv.55 | Crobat Lv.58 | Magneton Lv.55 | Gengar Lv.56 | Alakazam Lv.56 | Feraligatr Lv.60
+492,352,Pokefan M,Alex,Nidoking Lv.29 | Slowking Lv.29 | Magikarp Lv.65
+493,96,Medium,Edith,Haunter Lv.22
+494,94,Medium,Georgina,Gastly Lv.16 | Gastly Lv.16 | Gastly Lv.16 | Gastly Lv.16 | Gastly Lv.16
+495,5,Passerby,Boy,Chikorita Lv.5
+496,3,Passerby,Boy,Cyndaquil Lv.5
+497,4,Passerby,Boy,Totodile Lv.5
+498,137,Mystery Man,Eusine,Drowzee Lv.25 | Haunter Lv.25 | Electrode Lv.27
+499,167,Team Rocket,Grunt,Drowzee Lv.18 | Grimer Lv.20
+500,218,Ace Trainer M,Kobe,Dragonair Lv.37
+501,219,Ace Trainer F,Piper,Horsea Lv.33 | Horsea Lv.33 | Seadra Lv.35
+502,220,Twins,Clea & Gil,Dratini Lv.35 | Dratini Lv.35
+503,,School Kid M,Jack,Electrode Lv.43 | Vileplume Lv.52 | Arcanine Lv.52
+504,,School Kid M,Mickey,Electrode Lv.35 | Growlithe Lv.35 | Vileplume Lv.37
+505,,School Kid M,Alan,Xatu Lv.47 | Tangrowth Lv.54 | Quagsire Lv.47 | Yanmega Lv.54
+506,,School Kid M,Mickey,Xatu Lv.35 | Tangela Lv.32 | Yanma Lv.32 | Quagsire Lv.35
+507,,School Kid M,Chad,Mr Mime Lv.46 | Magneton Lv.56
+508,,School Kid M,Mickey,Mr Mime Lv.34 | Magneton Lv.38
+509,,Sailor,Huey,Politoed Lv.48 | Poliwrath Lv.52
+510,,Youngster,Joey,Raticate Lv.54
+511,,Youngster,Mickey,Raticate Lv.37
+512,,Bug Catcher,Wade,Butterfree Lv.36 | Butterfree Lv.52 | Beedrill Lv.43 | Butterfree Lv.36
+513,,Bug Catcher,Arnie,Nincada Lv.45 | Venomoth Lv.56
+514,,Bug Catcher,Mickey,Venomoth Lv.40
+515,,Fisherman,Ralph,Qwilfish Lv.53 | Seaking Lv.56
+516,,Fisherman,Mickey,Qwilfish Lv.35 | Seaking Lv.39
+517,,Fisherman,Tully,Seaking Lv.41 | Seaking Lv.50 | Qwilfish Lv.53
+518,,Picnicker,Liz,Victreebel Lv.47 | Nidoking Lv.58 | Nidoqueen Lv.60
+519,,Picnicker,Mickey,Weepinbell Lv.30 | Nidoking Lv.32 | Nidoqueen Lv.32
+520,,Picnicker,Gina,Skiploom Lv.30 | Jumpluff Lv.36 | Venusaur Lv.55
+521,,Picnicker,Mickey,Jumpluff Lv.33 | Jumpluff Lv.33 | Venusaur Lv.38
+522,,Picnicker,Tiffany,Clefable Lv.61
+523,,Hiker,Anthony,Graveler Lv.41 | Golem Lv.49 | Machamp Lv.55
+524,,Hiker,Mickey,Graveler Lv.34 | Golem Lv.36 | Machoke Lv.34
+525,,Camper,Todd,Graveler Lv.36 | Graveler Lv.44 | Magcargo Lv.54 | Golduck Lv.56
+526,,Camper,Mickey,Graveler Lv.33 | Graveler Lv.33 | Magcargo Lv.36 | Golduck Lv.34
+527,,Juggler,Irwin,Voltorb Lv.40 | Voltorb Lv.40 | Electrode Lv.46 | Electrode Lv.51
+528,,Lass,Dana,Golduck Lv.51 | Ampharos Lv.54
+529,,Lass,Mickey,Ampharos Lv.36 | Golduck Lv.36
+530,,Poke Maniac,Brent,Gyarados Lv.48 | Lickitung Lv.40 | Nidoqueen Lv.58 | Nidoking Lv.58
+531,,Twins,Mickey,Dratini Lv.38 | Dratini Lv.38
+532,,Bug Catcher,Mickey,Butterfree Lv.30 | Butterfree Lv.30 | Beedrill Lv.32 | Butterfree Lv.34
+533,,Bug Catcher,Wayne,Ledyba Lv.8 | Paras Lv.10
+534,,Beauty,Kimberly,Corsola Lv.19
+535,,Pokefan,Marigold,Meowth Lv.16
+536,,Camper,Bertrand,Fearow Lv.30 | Primeape Lv.30 | Tauros Lv.30
+537,142,Poke Maniac,Harrison,Nidoking Lv.17 | Nidoqueen Lv.17
+538,144,Super Nerd,Hugh,Seadra Lv.39
+539,143,Super Nerd,Markus,Slowpoke Lv.19
+540,,Pokefan M,Rex,Phanpy Lv.45
+541,,Pokefan M,Andy,Teddiursa Lv.44
+542,,Sage,Mickey,Noctowl Lv.32 | Flareon Lv.32
+543,,Sage,Mickey,Noctowl Lv.32 | Jolteon Lv.32
+544,,Sage,Mickey,Noctowl Lv.32 | Vaporeon Lv.32
+545,399,Ace Trainer M,French,Absol Lv.47 | Alakazam Lv.47
+546,397,School Kid M,Sherman,Furret Lv.43 | Pidgeot Lv.43
+547,385,Hiker,Bruce,Graveler Lv.39 | Rhydon Lv.44 | Clefairy Lv.45
+548,386,Black Belt,Manford,Poliwrath Lv.47
+549,383,Double Team,Zac & Jen,Electabuzz Lv.47 | Dugtrio Lv.47
+550,387,Black Belt,Ander,Primeape Lv.43 | Graveler Lv.39 | Machoke Lv.44
+551,388,Hiker,Dwight,Magneton Lv.44 | Steelix Lv.44
+552,380,Youngster,Regis,Golbat Lv.40 | Electrode Lv.40
+553,280,Young Couple,Moe & Lulu,Lotad Lv.43 | Seedot Lv.43
+554,282,Gentleman,Milton,Growlithe Lv.45
+555,358,Bird Keeper Gs,Justin,Xatu Lv.44 | Noctowl Lv.39
+556,362,Bird Keeper Gs,Gail,Fearow Lv.42 | Spearow Lv.39
+557,360,Young Couple,Vic & Tara,Magmar Lv.44 | Sunflora Lv.43
+558,364,Fisherman,Kyler,Magikarp Lv.18 | Magikarp Lv.18 | Magikarp Lv.18
+559,350,Young Couple,Tim & Sue,Kadabra Lv.41 | Psyduck Lv.46
+560,355,Camper,Clark,Buizel Lv.40
+561,353,Camper,Tanner,Sudowoodo Lv.38
+562,348,Picnicker,Piper,Spoink Lv.40
+563,354,Picnicker,Ginger,Whismur Lv.41
+564,344,Teacher,Clarice,Zigzagoon Lv.41 | Roselia Lv.43
+565,339,Bird Keeper Gs,Josh,Fearow Lv.37
+566,343,School Kid M,Connor,Zigzagoon Lv.42
+567,345,School Kid M,Torin,Sandslash Lv.41 | Golbat Lv.39
+568,346,School Kid M,Travis,Budew Lv.42
+569,337,Twins,Kay & Tia,Quagsire Lv.41 | Quagsire Lv.41
+570,333,Pokefan M,Boone,Spinda Lv.43 | Volbeat Lv.41
+571,338,Pokefan,Eleanor,Spinda Lv.43 | Illumise Lv.41
+572,311,Biker,Dale,Gulpin Lv.47
+573,314,Biker,Jacob,Magmar Lv.43 | Tentacruel Lv.43
+574,316,Biker,Aiden,Tentacruel Lv.45
+575,317,Biker,Dan,Gulpin Lv.39 | Weezing Lv.37 | Weezing Lv.37
+576,318,Biker,Theron,Croagunk Lv.45
+577,321,Biker,Markey,Skorupi Lv.47
+578,320,Biker,Teddy,Seviper Lv.46
+579,315,Biker,Ernest,Teddiursa Lv.45 | Marill Lv.44
+580,421,Camper,Pedro,Linoone Lv.45
+581,419,Picnicker,Adrian,Shroomish Lv.45
+582,416,Picnicker,Cheyenne,Shinx Lv.45
+583,414,Bird Keeper Gs,Bert,Wingull Lv.46 | Fearow Lv.43
+584,417,Bird Keeper Gs,Ernie,Starly Lv.48
+585,422,Swimmer M,Elmo,Poliwhirl Lv.46 | Tentacruel Lv.42
+586,420,Swimmer M,Luis,Seadra Lv.46 | Quagsire Lv.42
+587,418,Swimmer F,Leona,Bidoof Lv.44
+588,415,Swimmer F,Mina,Luvdisc Lv.38 | Luvdisc Lv.39 | Luvdisc Lv.41
+589,404,Fisherman,Murphy,Corsola Lv.32 | Corsola Lv.34 | Corsola Lv.36 | Corsola Lv.38
+590,406,Fisherman,Liam,Seadra Lv.42
+591,408,Fisherman,Gideon,Lanturn Lv.44 | Mantine Lv.40
+592,405,Swimmer F,Chelan,Azumarill Lv.40
+593,412,Swimmer F,Kendra,Slowking Lv.43
+594,409,Swimmer M,Esteban,Golduck Lv.38 | Poliwhirl Lv.38
+595,410,Swimmer M,Duane,Seaking Lv.40 | Kabutops Lv.40
+596,403,Bird Keeper Gs,Kinsley,Farfetchd Lv.36 | Fearow Lv.36 | Pidgeotto Lv.37
+597,411,Bird Keeper Gs,Easton,Doduo Lv.35 | Doduo Lv.35 | Dodrio Lv.35 | Dodrio Lv.36
+598,268,Twins,Day & Dani,Plusle Lv.41 | Minun Lv.41
+599,269,Camper,Virgil,Slakoth Lv.43
+600,270,Picnicker,Selina,Cherubi Lv.42
+601,88,Team Rocket,Grunt,Koffing Lv.12
+602,,Bird Keeper Gs,Jose,Farfetchd Lv.50 | Farfetchd Lv.52 | Farfetchd Lv.53
+603,,Picnicker,Erin,Cherrim Lv.42 | Sunflora Lv.46 | Bellossom Lv.49 | Rapidash Lv.53
+604,,Ace Trainer M,Gaven,Victreebel Lv.52 | Kingler Lv.49 | Flareon Lv.50
+605,,Black Belt,Kenji,Onix Lv.41 | Machamp Lv.53 | Onix Lv.49 | Hitmonlee Lv.53
+606,,Hiker,Parry,Steelix Lv.56 | Golem Lv.52
+607,,Ace Trainer F,Reena,Arcanine Lv.54 | Nidoqueen Lv.53 | Starmie Lv.56
+608,,Fisherman,Wilton,Seaking Lv.42 | Seaking Lv.46 | Seaking Lv.63
+609,,Ace Trainer F,Jamie,Rapidash Lv.56 | Ampharos Lv.59
+610,,Pokefan M,Derek,Pichu Lv.18 | Teddiursa Lv.22 | Pikachu Lv.39 | Ursaring Lv.47
+611,,Pokefan,Beverly,Granbull Lv.53
+612,,Bird Keeper Gs,Vance,Pidgeot Lv.56 | Pidgeot Lv.44 | Noctowl Lv.54
+613,,Lass,Krise,Oddish Lv.21 | Cubone Lv.31
+614,,Lass,Krise,Gloom Lv.32 | Marowak Lv.38
+615,,Lass,Krise,Vileplume Lv.53 | Marowak Lv.54
+616,,Youngster,Ian,Mankey Lv.27 | Dugtrio Lv.33
+617,,Youngster,Ian,Primeape Lv.38 | Dugtrio Lv.40
+618,,Youngster,Ian,Primeape Lv.47 | Dugtrio Lv.58
+619,,Firebreather,Walt,Magmar Lv.25 | Magmar Lv.32
+620,,Firebreather,Walt,Magmar Lv.34 | Magmar Lv.37
+621,,Firebreather,Walt,Magby Lv.26 | Magmar Lv.49 | Magmortar Lv.58
+622,,Bug Catcher,Doug,Butterfree Lv.40 | Ariados Lv.40
+623,,Bug Catcher,Doug,Butterfree Lv.47 | Ariados Lv.46
+624,,Bug Catcher,Doug,Butterfree Lv.52 | Ariados Lv.50
+625,,Bug Catcher,Rob,Beedrill Lv.45 | Butterfree Lv.42
+626,,Bug Catcher,Rob,Beedrill Lv.52 | Butterfree Lv.48
+627,,Bug Catcher,Rob,Beedrill Lv.56 | Butterfree Lv.56
+628,,Biker,Reese,Arbok Lv.42 | Weezing Lv.48
+629,,Biker,Reese,Arbok Lv.48 | Weezing Lv.50
+630,,Biker,Reese,Arbok Lv.56 | Weezing Lv.55
+631,,Biker,Aiden,Hypno Lv.50 | Tentacruel Lv.49
+632,,Biker,Aiden,Hypno Lv.55 | Tentacruel Lv.55
+633,,Biker,Aiden,Tentacruel Lv.55 | Hypno Lv.58 | Tentacruel Lv.58
+634,,Biker,Ernest,Teddiursa Lv.46 | Azumarill Lv.47
+635,,Biker,Ernest,Teddiursa Lv.48 | Azumarill Lv.49
+636,,Biker,Ernest,Ursaring Lv.58 | Azumarill Lv.54
+637,,Teacher,Hillary,Ambipom Lv.43 | Sunflora Lv.43
+638,,Teacher,Hillary,Ambipom Lv.49 | Sunflora Lv.49
+639,,Teacher,Hillary,Ambipom Lv.55 | Sunflora Lv.55
+640,,School Kid M,Billy,Parasect Lv.42 | Poliwhirl Lv.43 | Ditto Lv.40
+641,,School Kid M,Billy,Parasect Lv.46 | Poliwhirl Lv.47 | Ditto Lv.46
+642,,School Kid M,Billy,Mr Mime Lv.50 | Parasect Lv.55 | Poliwrath Lv.53 | Ditto Lv.51
+643,,Twins,Kay & Tia,Quagsire Lv.48 | Quagsire Lv.48
+644,,Twins,Kay & Tia,Quagsire Lv.53 | Quagsire Lv.53
+645,,Twins,Kay & Tia,Quagsire Lv.55 | Quagsire Lv.55
+646,,Bird Keeper Gs,Josh,Fearow Lv.47 | Skarmory Lv.44
+647,,Bird Keeper Gs,Josh,Skarmory Lv.48 | Fearow Lv.51
+648,,Bird Keeper Gs,Josh,Skarmory Lv.55 | Fearow Lv.55
+649,,School Kid M,Torin,Sandslash Lv.46 | Golbat Lv.45 | Vulpix Lv.41
+650,,School Kid M,Torin,Sandslash Lv.48 | Golbat Lv.51 | Vulpix Lv.48
+651,,School Kid M,Torin,Sandslash Lv.52 | Golbat Lv.53 | Vulpix Lv.52
+652,,Young Couple,Tim & Sue,Kadabra Lv.45 | Golduck Lv.50
+653,,Young Couple,Tim & Sue,Kadabra Lv.48 | Golduck Lv.52
+654,,Young Couple,Tim & Sue,Alakazam Lv.54 | Golduck Lv.56
+655,,Hiker,Kenny,Onix Lv.16 | Graveler Lv.33 | Golem Lv.37 | Sandslash Lv.32
+656,,Hiker,Kenny,Sandslash Lv.42 | Graveler Lv.37 | Golem Lv.44 | Onix Lv.46
+657,,Hiker,Kenny,Sandslash Lv.46 | Graveler Lv.44 | Golem Lv.49 | Steelix Lv.54
+658,,Camper,Tanner,Sudowoodo Lv.41 | Chinchou Lv.41
+659,,Camper,Tanner,Sudowoodo Lv.48 | Lanturn Lv.47 | Skiploom Lv.44
+660,,Camper,Tanner,Sudowoodo Lv.52 | Jumpluff Lv.52 | Lanturn Lv.52
+661,,Fisherman,Kyle,Seaking Lv.40 | Qwilfish Lv.38 | Seaking Lv.43
+662,,Fisherman,Kyle,Seaking Lv.43 | Qwilfish Lv.41 | Seaking Lv.47 | Krabby Lv.39
+663,,Fisherman,Kyle,Seaking Lv.48 | Qwilfish Lv.49 | Seaking Lv.52 | Kingler Lv.51
+664,,Fisherman,Kyler,Magikarp Lv.18 | Magikarp Lv.18 | Magikarp Lv.18 | Magikarp Lv.18
+665,,Fisherman,Kyler,Magikarp Lv.18 | Magikarp Lv.18 | Magikarp Lv.18 | Magikarp Lv.18 | Magikarp Lv.18
+666,,Fisherman,Kyler,Magikarp Lv.18 | Magikarp Lv.18 | Magikarp Lv.18 | Magikarp Lv.18 | Magikarp Lv.18 | Magikarp Lv.18
+667,,PKMN Trainer,Cheryl,Wobbuffet Lv.61 | Drifblim Lv.61 | Hariyama Lv.62 | Wailord Lv.63 | Blissey Lv.65
+668,,PKMN Trainer,Marley,Ninjask Lv.61 | Electrode Lv.61 | Crobat Lv.62 | Weavile Lv.63 | Arcanine Lv.65
+669,,PKMN Trainer,Mira,Porygon Z Lv.61 | Gengar Lv.61 | Magnezone Lv.62 | Togekiss Lv.63 | Alakazam Lv.65
+670,,PKMN Trainer,Riley,Absol Lv.61 | Ursaring Lv.61 | Metagross Lv.62 | Salamence Lv.63 | Lucario Lv.65
+671,,PKMN Trainer,Buck,Shuckle Lv.61 | Umbreon Lv.62 | Torkoal Lv.61 | Dusknoir Lv.63 | Claydol Lv.65
+672,,Gentleman,Alfred,Noctowl Lv.36
+673,,Gentleman,Alfred,Noctowl Lv.42
+674,,Gentleman,Alfred,Noctowl Lv.58
+675,,PKMN Trainer,Lance,Dragonite Lv.40
+676,300,Sailor,Parker,Horsea Lv.43 | Seadra Lv.43
+677,301,Sailor,Eddie,Azumarill Lv.48
+678,303,Swimmer F,Joy,Cloyster Lv.48
+679,85,Beauty,Callie,Clefable Lv.16 | Wigglytuff Lv.16
+680,86,Beauty,Kassandra,Wigglytuff Lv.16 | Clefable Lv.16
+681,439,Ace Trainer M,Arabella,Stantler Lv.53 | Tauros Lv.52
+682,441,Ace Trainer M,Bonita,Spinda Lv.50 | Sudowoodo Lv.52
+683,440,Ace Trainer F,Salma,Slowking Lv.50 | Lickilicky Lv.53
+684,442,Double Team,Elan & Ida,Porygon2 Lv.52 | Azumarill Lv.50
+685,378,Hiker,Edwin,Golem Lv.50
+686,427,Boarder,Bryce,Dewgong Lv.55 | Lapras Lv.50
+687,426,Boarder,Shaun,Cloyster Lv.55 | Dewgong Lv.50
+688,425,Skier,Cady,Delibird Lv.53
+689,430,Super Nerd,Cary,Torkoal Lv.53
+690,432,Super Nerd,Waldo,Numel Lv.53
+691,433,Super Nerd,Merle,Magcargo Lv.53
+692,428,Scientist Gs,Lowell,Arcanine Lv.50
+693,431,Scientist Gs,Linden,Magmar Lv.50
+694,429,Scientist Gs,Daniel,Ninetales Lv.50
+695,376,Bug Catcher,Dane,Beedrill Lv.44 | Butterfree Lv.48
+696,375,Bug Catcher,Dion,Ariados Lv.50
+697,374,Bug Catcher,Stacey,Metapod Lv.52 | Metapod Lv.56 | Metapod Lv.60
+698,373,Bug Catcher,Ellis,Weedle Lv.28 | Kakuna Lv.38 | Beedrill Lv.46
+699,372,Bug Catcher,Abner,Butterfree Lv.44 | Beedrill Lv.44 | Pikachu Lv.44
+700,,Rocket Boss,Giovanni,Nidoking Lv.42 | Kangaskhan Lv.40 | Honchkrow Lv.43 | Nidoqueen Lv.46
+701,,Champion,Lance,Salamence Lv.72 | Gyarados Lv.68 | Garchomp Lv.72 | Altaria Lv.73 | Charizard Lv.68 | Dragonite Lv.75
+702,,Elite Four,Will,Bronzong Lv.58 | Jynx Lv.60 | Grumpig Lv.59 | Slowbro Lv.60 | Gardevoir Lv.61 | Xatu Lv.62
+703,,Elite Four,Koga,Skuntank Lv.61 | Venomoth Lv.63 | Toxicroak Lv.60 | Muk Lv.62 | Crobat Lv.64 | Swalot Lv.62
+704,,Elite Four,Bruno,Hitmontop Lv.62 | Hitmonlee Lv.61 | Hitmonchan Lv.61 | Hariyama Lv.62 | Machamp Lv.64 | Lucario Lv.64
+705,,Elite Four,Karen,Weavile Lv.62 | Spiritomb Lv.62 | Absol Lv.62 | Honchkrow Lv.64 | Houndoom Lv.63 | Umbreon Lv.64
+706,202,Executive,Proton,Golbat Lv.28 | Weezing Lv.33
+707,,Tower Tycoon,Palmer,Rattata Lv.5
+708,,Hall Matron,Argenta,Rattata Lv.5
+709,,Factory Head,Thorton,Rattata Lv.5
+710,,Arcade Star,Dahlia,Rattata Lv.5
+711,,Castle Valet,Darach,Rattata Lv.5
+712,,Leader,Falkner,Staraptor Lv.50 | Noctowl Lv.52 | Swellow Lv.52 | Honchkrow Lv.54 | Pelipper Lv.48 | Pidgeot Lv.56
+713,,Leader,Bugsy,Scizor Lv.56 | Shedinja Lv.48 | Yanmega Lv.52 | Pinsir Lv.55 | Heracross Lv.54 | Vespiquen Lv.52
+714,,Leader,Whitney,Girafarig Lv.52 | Lickilicky Lv.50 | Bibarel Lv.54 | Delcatty Lv.54 | Clefable Lv.52 | Miltank Lv.58
+715,,Leader,Morty,Drifblim Lv.52 | Dusknoir Lv.52 | Sableye Lv.52 | Mismagius Lv.54 | Gengar Lv.57 | Gengar Lv.57
+716,,Leader,Pryce,Abomasnow Lv.56 | Dewgong Lv.58 | Glalie Lv.52 | Froslass Lv.52 | Walrein Lv.54 | Mamoswine Lv.60
+717,,Leader,Jasmine,Metagross Lv.52 | Magnezone Lv.56 | Skarmory Lv.52 | Bronzong Lv.50 | Empoleon Lv.52 | Steelix Lv.62
+718,,Leader,Chuck,Medicham Lv.54 | Hitmonchan Lv.52 | Hitmonlee Lv.55 | Breloom Lv.54 | Primeape Lv.56 | Poliwrath Lv.60
+719,,Leader,Clair,Gyarados Lv.56 | Dragonair Lv.52 | Aerodactyl Lv.52 | Kingdra Lv.56 | Charizard Lv.52 | Dragonite Lv.60
+720,,Leader,Brock,Golem Lv.55 | Relicanth Lv.54 | Omastar Lv.56 | Onix Lv.61 | Kabutops Lv.55 | Rampardos Lv.57
+721,,Leader,Misty,Starmie Lv.60 | Quagsire Lv.56 | Lapras Lv.56 | Lanturn Lv.54 | Floatzel Lv.54 | Milotic Lv.60
+722,,Leader,Lt. Surge,Raichu Lv.60 | Manectric Lv.52 | Magnezone Lv.52 | Electrode Lv.52 | Pachirisu Lv.58 | Electivire Lv.56
+723,,Leader,Erika,Shiftry Lv.54 | Jumpluff Lv.53 | Victreebel Lv.56 | Bellossom Lv.56 | Tangrowth Lv.60 | Roserade Lv.55
+724,,Leader,Janine,Crobat Lv.52 | Weezing Lv.56 | Toxicroak Lv.52 | Ariados Lv.58 | Venomoth Lv.59 | Drapion Lv.55
+725,,Leader,Sabrina,Alakazam Lv.60 | Espeon Lv.58 | Mr Mime Lv.56 | Jynx Lv.54 | Wobbuffet Lv.53 | Gallade Lv.53
+726,,Leader,Blaine,Torkoal Lv.54 | Camerupt Lv.57 | Rapidash Lv.60 | Magcargo Lv.58 | Houndoom Lv.54 | Magmortar Lv.62
+727,,Leader,Blue,Exeggutor Lv.67 | Machamp Lv.69 | Rhyperior Lv.70 | Arcanine Lv.68 | Tyranitar Lv.70 | Pidgeot Lv.72
+728,108,Beauty,Charlotte,Bellossom Lv.16
+729,448,Young Couple,Duff & Eda,Onix Lv.22 | Cloyster Lv.22
+730,447,Double Team,Thom & Kae,Electabuzz Lv.25 | Magmar Lv.25
+731,445,Hiker,Devin,Dunsparce Lv.19 | Dunsparce Lv.19 | Dunsparce Lv.19
+732,446,Camper,Grant,Skiploom Lv.21 | Marill Lv.21
+733,,Champion,Lance,Gyarados Lv.68 | Charizard Lv.68 | Dragonite Lv.75
+734,,Leader,Clair,Dragonair Lv.52 | Kingdra Lv.56 | Dragonite Lv.60
+735,,Rival,Silver,Meganium Lv.60 | Crobat Lv.58 | Gengar Lv.56
+736,,Rival,Silver,Typhlosion Lv.60 | Crobat Lv.58 | Gengar Lv.56
+737,,Rival,Silver,Feraligatr Lv.60 | Crobat Lv.58 | Gengar Lv.56
