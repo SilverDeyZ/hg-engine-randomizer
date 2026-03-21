@@ -103,7 +103,6 @@ changelog
 /include/constants/generated/
 test_logs.txt
 
-# keep tracked project documentation and backups
 !/bak/
 !/bak/**
 !/wiki/
