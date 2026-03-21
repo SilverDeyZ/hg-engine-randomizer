@@ -1,18 +1,8 @@
 #!/usr/bin/env python3
-"""Toggle the 0x80 lead flag on trainer `nummons` entries.
-
-When activated (Yes), this script rewrites trainer entries in
-`armips/data/trainers/trainers.s` so that:
-- SINGLE_BATTLE trainers with 2 or more Pokémon use `nummons 0x80 | X`
-- DOUBLE_BATTLE trainers with 3 or more Pokémon use `nummons 0x80 | X`
-
-When deactivated (No), it removes that `0x80 |` prefix and restores plain
-`nummons X` values.
-"""
+"""Toggle the 0x80 lead flag on trainer `nummons` entries."""
 
 from __future__ import annotations
 
-import argparse
 import re
 from pathlib import Path
 
@@ -25,24 +15,24 @@ TRAINER_START_RE = re.compile(r"^\s*trainerdata\b")
 TRAINER_END_RE = re.compile(r"^\s*endentry\b")
 
 
-def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(
-        description="Toggle lead-randomization flags on trainer nummons entries.",
-    )
-    parser.add_argument(
-        "mode",
-        nargs="?",
-        choices=("Yes", "No"),
-        default="Yes",
-        help="Use 'Yes' to activate the 0x80 flag, or 'No' to remove it. Defaults to 'Yes'.",
-    )
-    parser.add_argument(
-        "--file",
-        type=Path,
-        default=DEFAULT_TRAINERS,
-        help=f"Trainer file to edit (default: {DEFAULT_TRAINERS}).",
-    )
-    return parser.parse_args()
+def print_intro() -> None:
+    print("========================================")
+    print(" Trainers Lead Flag")
+    print("========================================")
+    print("Toggles the trainer lead flag logic in `armips/data/trainers/trainers.s`.\n")
+
+
+def ask_mode() -> bool:
+    print("0 = disable")
+    print("1 = enable")
+
+    while True:
+        choice = input("Choice: ").strip() or "1"
+        if choice == "0":
+            return False
+        if choice == "1":
+            return True
+        print("Invalid choice. Use 0 or 1.")
 
 
 def should_enable(battle_type: str, count: int) -> bool:
@@ -121,16 +111,16 @@ def transform_text(text: str, activate: bool) -> tuple[str, int]:
 
 
 def main() -> int:
-    args = parse_args()
-    activate = args.mode == "Yes"
-    original = args.file.read_text(encoding="utf-8")
+    print_intro()
+    activate = ask_mode()
+    original = DEFAULT_TRAINERS.read_text(encoding="utf-8")
     updated, modified_blocks = transform_text(original, activate)
 
     if updated != original:
-        args.file.write_text(updated, encoding="utf-8")
+        DEFAULT_TRAINERS.write_text(updated, encoding="utf-8")
 
     state = "activated" if activate else "deactivated"
-    print(f"random_trainers_lead: {state}; updated {modified_blocks} trainer entries in {args.file}")
+    print(f"random_trainers_lead: {state}; updated {modified_blocks} trainer entries in {DEFAULT_TRAINERS}")
     return 0
 
 
